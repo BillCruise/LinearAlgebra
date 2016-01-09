@@ -66,3 +66,59 @@ A <- matrix(data=c(5, -1, 2,
 b <- matrix(data=c(7, 0, -7), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
+
+
+# Solutions to selected exercises
+
+# Exercise 1
+A <- matrix(data=c(1, 5,
+                   -2, -7), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(7, -5), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# Exercise 2
+A <- matrix(data=c(2, 4,
+                   5, 7), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(-4, 11), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# Exercise 3
+A <- matrix(data=c(1, 5,
+                   1, -2), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(7, -2), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# Exercise 4
+A <- matrix(data=c(1, -5,
+                   3, -7), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(1, 5), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# Exercise 5
+A <- matrix(data=c(1, -4, 5, 0, 
+                   0, 1, -3, 0, 
+                   0, 0, 1, 0,
+                   0, 0, 0, 1), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(7, 6, 2, -5), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# The system is already in triangular form.
+# Use the x4 term to eliminate all x4 terms above it.
+
+
+# Exercise 6
+A <- matrix(data=c(1, -6, 4, 0, 
+                   0, 2, -7, 0, 
+                   0, 0, 1, 2,
+                   0, 0, 3, 1), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(-1, 4, -3, 6), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# To reach a triangular form, add row 4 to -3 times row 3.
+
