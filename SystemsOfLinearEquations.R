@@ -1,6 +1,42 @@
 # Linear Algebra and its applications 5th edition
 # 1.1 Systems of linear equations
 
+# Definitions
+
+# A LINEAR EQUATION in the variables x1,...,xn is an equation that can be written in the form
+#   a1x1 + a2x2 + ... + anxn = b
+# where b and the COEFFICIENTS a1,...,an are real or complex numbers, usually known in advance.
+
+# A SYSTEM of LINEAR EQUATIONS (or a LINEAR SYSTEM) is a collection of one or more linear
+# equations involving the same variables, e.g., x1,...,xn.
+
+# A SOLUTION of the system is a list (s1, s2,...sn) of numbers that makes each equation a true
+# statement when the values s1,...sn are substituted for x1,...xn, respectively.
+
+# The set of all possible solutions is called the SOLUTION SET of a linear system.
+
+# Two lnear systems are called EQUIVALENT if they have the same solution set. (Each solution to
+# the first system is a solution to the second, and vice versa.)
+
+# A system of linear equations has
+# 1. no solution, or
+# 2. exactly one solution, or
+# 3. infinitely many solutions.
+
+# A system of linear equations is said to be CONSISTENT if it has either one solution or
+# infinitely many solutions; A system is INCONSISTENT if it has no solution.
+
+# The essential information of a linear system can be recorded compactly in a rectangular
+# array called a MATRIX.
+
+# Three basic operations are used to simplify a linear system:
+# 1. Replace one equation by the sum of itself anda  multiple of another equation.
+# 2. Interchange two equations.
+# 3. Multiply all terms of an equation by a nonzero constant.
+
+# Two matrices are called ROW EQUIVALENT if there is a sequence of elementary row operations
+# that transforms one matrix into the other.
+
 # Example 1
 A <- matrix(data=c(1, -2, 1, 
                    0, 2, -8, 
@@ -28,6 +64,7 @@ A <- matrix(data=c(0, 1, -4,
 b <- matrix(data=c(8, 1, 1), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
+
 
 
 # Practice Problem 1a
@@ -66,6 +103,12 @@ A <- matrix(data=c(5, -1, 2,
 b <- matrix(data=c(7, 0, -7), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
+
+
+# Practice Problem 4
+# Add 3 times the first equation to the second equation to eliminate the x1 term from equation 2.
+# The second equation becomes 0 = k + 3h, so the system is consistent for any values of h and k
+# that make k + 3h equal to 0.
 
 
 # Solutions to selected exercises
