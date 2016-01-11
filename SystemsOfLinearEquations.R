@@ -165,3 +165,41 @@ solve(A, b)
 
 # To reach a triangular form, add row 4 to -3 times row 3.
 
+
+# Exercise 7
+A <- matrix(data=c(1, 7, 3, 
+                   0, 1, -1, 
+                   0, 0, 0), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(-4, 3, 1), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 8
+A <- matrix(data=c(1, -4, 9, 
+                   0, 1, 7, 
+                   0, 0, 2), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(0, 0, 0), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 9
+A <- matrix(data=c(1, -1, 0, 0, 
+                   0, 1, -3, 0, 
+                   0, 0, 1, -3,
+                   0, 0, 0, 2), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(-4, -7, -1, 4), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 10
+A <- matrix(data=c(1, -2, 0, 3, 
+                   0, 1, 0, -4, 
+                   0, 0, 1, 0,
+                   0, 0, 0, 1), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(-2, 7, 6, -3), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
