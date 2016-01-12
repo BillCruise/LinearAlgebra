@@ -203,3 +203,85 @@ b <- matrix(data=c(-2, 7, 6, -3), nrow=4, ncol=1, byrow=FALSE)
 
 solve(A, b)
 
+
+# Exercise 11
+A <- matrix(data=c(0, 1, 4, 
+                   1, 3, 5, 
+                   3, 7, 7), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(-5, -2, 6), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 12
+A <- matrix(data=c(1, -3, 4, 
+                   3, -7, 7, 
+                   -4, 6, -3), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(-4, -8, 7), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 13
+A <- matrix(data=c(1, 0, -3, 
+                   2, 2, 9, 
+                   0, 1, 5), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(8, 7, -2), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 14
+A <- matrix(data=c(1, -3, 0, 
+                   -1, 1, 5, 
+                   0, 1, 1), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(5, 2, 0), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 15
+A <- matrix(data=c(1, 0, 3, 0, 
+                   0, 1, 0, -3, 
+                   0, -2, 3, 2,
+                   3, 0, 0, 7), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(2, 3, 1, -5), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 16
+A <- matrix(data=c(1, 0, 0, -2, 
+                   0, 2, 2, 0, 
+                   0, 0, 1, 3,
+                   -2, 3, 2, 1), nrow=4, ncol=4, byrow=TRUE)    
+b <- matrix(data=c(-3, 0, 1, 5), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 17
+A <- matrix(data=c(1, -4, 
+                   2, -1), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(1, -3), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+A <- matrix(data=c(1, -4, 
+                   -1, -3), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(1, 4), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+# Since lines 1 and 2 intersect, and lines 1 and 3 intersect at the same point,
+# all three lines do have a common point of intersection.
+
+
+# Exercise 18
+A <- matrix(data=c(1, 2, 1, 
+                   0, 1, -1, 
+                   1, 3, 0), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(4, 1, 0), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
