@@ -167,12 +167,15 @@ solve(A, b)
 
 
 # Exercise 7
-A <- matrix(data=c(1, 7, 3, 
+A <- matrix(data=c(1, 7, 3,
                    0, 1, -1, 
-                   0, 0, 0), nrow=3, ncol=3, byrow=TRUE)    
-b <- matrix(data=c(-4, 3, 1), nrow=3, ncol=1, byrow=FALSE)
+                   0, 0, 0,
+                   0, 0, 1), nrow=4, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(-4, 3, 1, -2), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
+
+# Since row 3 has 0 for all coefficients, the system is inconsistent.
 
 
 # Exercise 8
