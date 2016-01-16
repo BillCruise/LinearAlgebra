@@ -219,7 +219,7 @@ solve(A, b)
 # Exercise 12
 A <- matrix(data=c(1, -3, 4, 
                    3, -7, 7, 
-                   -4, 6, -3), nrow=3, ncol=3, byrow=TRUE)    
+                   -4, 6, -1), nrow=3, ncol=3, byrow=TRUE)    
 b <- matrix(data=c(-4, -8, 7), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
