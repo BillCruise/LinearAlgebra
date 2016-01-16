@@ -48,10 +48,12 @@ v %*% w
 # Vector Norm
 # The NORM (or length) of a vector is the Euclidean length of the vector.
 # The norm of a vector u is defined as the nonnegative square root of u * u.
-norm_vec <- function(u) sqrt(sum(u^2))
 
-u <- c(1, -2, -4, 5, 3)
-norm_vec(u)
-norm(u, "F")
+u <- c(1, -2, -4, 5, 3
+norm(u, "2")
 
-v <- c()
+v <- c(1, -3, 4, 2)
+norm(v, "2")
+
+w <- c(1/2, -1/6, 5/6, 1/6)
+norm(w, "2")
