@@ -288,3 +288,47 @@ b <- matrix(data=c(4, 1, 0), nrow=3, ncol=1, byrow=FALSE)
 
 solve(A, b)
 
+
+# For 19-22, find what values of h make the following linear systems consistent.
+
+# Exercise 19
+h <- 2
+A <- matrix(data=c(1, h, 
+                   3, 6), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(4, 8), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+# This system is inconsistent when h = 2,
+# and consistent for all other values of h.
+
+
+# Exercise 20
+h <- -2
+A <- matrix(data=c(1, h, 
+                   -2, 4), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(-3, 6), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+# This system is inconsistent when h = -2,
+# and consistent for all other values of h.
+
+
+# Exercise 21
+h <- -12
+A <- matrix(data=c(1, 3, 
+                   -4, h), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(-2, 8), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+# This system is inconsistent when h = -12,
+# and consistent for all other values of h.
+
+
+# Exercise 22
+h <- -5/3
+A <- matrix(data=c(2, -3, 
+                   -6, 9), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(h, 5), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
+# This system is consistent when h = -5/3.
