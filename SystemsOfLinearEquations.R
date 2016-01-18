@@ -332,3 +332,15 @@ b <- matrix(data=c(h, 5), nrow=2, ncol=1, byrow=FALSE)
 
 solve(A, b)
 # This system is consistent when h = -5/3.
+
+
+# Exercise 27
+c <- 0
+d <- 0
+f <- 1
+g <- 0
+A <- matrix(data=c(1, 3, 
+                   c, d), nrow=2, ncol=2, byrow=TRUE)    
+b <- matrix(data=c(f, g), nrow=2, ncol=1, byrow=FALSE)
+
+solve(A, b)
