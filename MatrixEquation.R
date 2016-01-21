@@ -43,3 +43,36 @@ A <- matrix(data=c(2, -3,
                    -5, 2), nrow=3, ncol=2, byrow=TRUE)    
 x <- c(4, 7)
 A %*% x
+
+
+# Practice Problem 2
+A <- matrix(data=c(2, 5,
+                   3, 1), nrow=2, ncol=2, byrow=TRUE)    
+u <- c(4, -1)
+v <- c(-3, 5)
+
+A %*% (u + v)
+A %*% u + A %*% v
+
+
+# Exercise 1
+A <- matrix(data=c(-4, 2,
+                   1, 6,
+                   0, 1), nrow=3, ncol=2, byrow=TRUE)    
+x <- c(3, -2, 7)
+A %*% x
+
+
+# Exercise 3
+A <- matrix(data=c(6, 5,
+                   -4, -3,
+                   7, 6), nrow=3, ncol=2, byrow=TRUE)    
+x <- c(2, -3)
+A %*% x
+
+
+# Exercise 4
+A <- matrix(data=c(8, 3, -4,
+                   5, 1, 2), nrow=2, ncol=3, byrow=TRUE)    
+x <- c(1, 1, 1)
+A %*% x
