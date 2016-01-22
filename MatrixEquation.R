@@ -76,3 +76,31 @@ A <- matrix(data=c(8, 3, -4,
                    5, 1, 2), nrow=2, ncol=3, byrow=TRUE)    
 x <- c(1, 1, 1)
 A %*% x
+
+
+# Exercise 5
+A <- matrix(data=c(5, 1, -8, 4,
+                   -2, -7, 3, -5), nrow=2, ncol=4, byrow=TRUE)    
+x <- c(5, -1, 3, -2)
+A %*% x
+
+
+# Exercise 6
+A <- matrix(data=c(7, -3,
+                   2, 1,
+                   9, -6,
+                   -3, 2), nrow=4, ncol=2, byrow=TRUE)    
+x <- c(-2, -5)
+A %*% x
+
+
+# Exercise 7
+A <- matrix(data=c(4, -5, 7,
+                   -1, 3, -8,
+                   7, -5, 0
+                   -4, 1, 2), nrow=4, ncol=3, byrow=TRUE)
+b <- matrix(data=c(6, -8, 0, -7), nrow=4, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
