@@ -97,10 +97,27 @@ A %*% x
 # Exercise 7
 A <- matrix(data=c(4, -5, 7,
                    -1, 3, -8,
-                   7, -5, 0
+                   7, -5, 0,
                    -4, 1, 2), nrow=4, ncol=3, byrow=TRUE)
 b <- matrix(data=c(6, -8, 0, -7), nrow=4, ncol=1, byrow=FALSE)
 
 solve(A, b)
 
+
+# Exercise 11
+A <- matrix(data=c(1, 2, 4,
+                   0, 1, 5,
+                   -2, -4, -3), nrow=3, ncol=3, byrow=TRUE)
+b <- matrix(data=c(-2, 2, 9), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
+
+
+# Exercise 12
+A <- matrix(data=c(1, 2, 1,
+                   -3, -1, 2,
+                   0, 5, 3), nrow=3, ncol=3, byrow=TRUE)
+b <- matrix(data=c(0, 1, -1), nrow=3, ncol=1, byrow=FALSE)
+
+solve(A, b)
 
