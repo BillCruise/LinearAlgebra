@@ -183,3 +183,31 @@ w <- c(-1, -3)
 v <- c(1/5, 3/5)
 10 * v
 
+
+# Vector Examples
+# https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/linear-algebra-vector-examples
+
+a <- c(-1, 2)
+b <- c(3, 1)
+a + b
+
+v <- c(1, 2)
+2 * v
+
+x <- c(2, 4)
+y <- c(-1, -2)
+x - y
+x + (-1 * y)
+
+x <- c(2, 3)
+y <- c(-4, -2)
+x - y
+x + (-1 * y)
+y - x
+y + (-1 * x)
+
+a <- c(0, -1, 2, 3)
+b <- c(4, -2, 0, 5)
+4 * a - 2 * b
+
+
