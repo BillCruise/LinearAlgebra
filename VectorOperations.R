@@ -129,3 +129,57 @@ w %*% v
 u %*% w
 
 
+# Examples from Khan Academy Adding Vectors lecture on linear algebra
+# https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/adding-vectors
+
+a <- c(6, -2)
+b <- c(-4, 4)
+a + b
+b + a
+
+
+# Vector-scalar multiplication
+# https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces/vectors/v/multiplying-vector-by-scalar
+
+a <- c(2, 1)
+3 * a
+-1 * a
+-2 * a
+
+# Practice Problems
+v <- c(5, 10)
+1/5 * v
+
+v <- c(6, -4)
+1/2 * v
+
+v <- c(3, -4)
+5 * v
+
+w <- c(-2, 3)
+-5 * w
+
+v <- c(2, 4)
+3 * v
+
+w <- c(2, 1)
+-6 * w
+
+w <- c(-10, 20)
+3/5 * w
+
+v <- c(4, 12)
+3/4 * v
+
+w <- c(-3, 5)
+3 * w
+
+v <- c(-2, -4)
+2 * v
+
+w <- c(-1, -3)
+6 * w
+
+v <- c(1/5, 3/5)
+10 * v
+
