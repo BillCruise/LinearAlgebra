@@ -69,7 +69,7 @@ v %*% w
 
 
 # Vector Norm
-# The NORM (or length) of a vector is the Euclidean length of the vector.
+# The NORM (or length, or magnitude) of a vector is the Euclidean length of the vector.
 # The norm of a vector u is defined as the nonnegative square root of u * u.
 
 u <- c(1, -2, -4, 5, 3
@@ -211,3 +211,19 @@ b <- c(4, -2, 0, 5)
 4 * a - 2 * b
 
 
+# A UNIT VECTOR has a magnitude of 1.
+# Dividing vector v by its magnitude will find a vector
+# in the same direction, but with a magnitude of 1.
+
+# Find a unit vector in the direction of v = (2, 7)
+v <- c(2, 7)
+u = v / norm(v, "2")
+
+v <- c(1, -2)
+u = v / norm(v, "2")
+
+v <- c(8, 9)
+u = v / norm(v, "2")
+
+v <- c(-2, 3)
+u = v / norm(v, "2")
