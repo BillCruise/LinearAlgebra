@@ -16,3 +16,15 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 9. The Matrix of a Linear Transformation
 10. Linear Models in Business, Science, and Engineering
 
+### Chapter 2: Matrix Algebra
+
+1. Matrix Operations
+2. The Inverse of a Matrix
+3. Characterizations of Invertible Matrices
+4. Partitioned Matrices
+5. Matrix Factorizations
+6. The Leontief Input-Output Model
+7. Applications to Computer Graphics
+8. Subspaces of Rn
+9. Demension and Rank
+
