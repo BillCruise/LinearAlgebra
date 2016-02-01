@@ -12,7 +12,7 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 5. [Solution Sets of Linear Systems](SolutionSetsOfLinearEquations.R)
 6. Applications of Linear Systems
 7. Linear Independence
-8. Introduction to Linear Transformations
+8. [Introduction to Linear Transformations](IntroToLinearTransformations.R)
 9. The Matrix of a Linear Transformation
 10. Linear Models in Business, Science, and Engineering
 
