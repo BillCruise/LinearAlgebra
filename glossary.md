@@ -91,6 +91,26 @@ A system of linear equations is said to be **homogeneous** if it can be written 
 
 ## 1.8 - Introduction to Linear Transformations
 
-A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain* of T, and Rm is called the **codomain** of T. The notation T : Rn -> Rm indicates that the domain of T is Rn and the codomain is Rm.
+A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : Rn -> Rm indicates that the domain of T is Rn and the codomain is Rm.
 For x in Rn, the vector T(x) in Rm is called the **image** of x (under the action of T).
 The set of all images T(x) is called the **range** of T.
+
+A transformation (or mapping) T is **linear** if:
+
+1. T(u + v) = T(u) + T(v); // for all u, v in the domain of T;
+2. T(cu) = cT(u); // for all scalars c and all u in the domain of T.
+
+This means that linear transformations preserve the operations of vector addition and scalar multiplications.
+
+Every matrix transformation is a linear transformation, but not all linear transformations are matrix transformations (see chapters 4 and 5 for examples).
+
+If T is a linear transformation, then
+
+T(0) = 0
+
+and
+
+T(cu + dv) = cT(u) + dT(v)
+
+for all vectors u, v in the domain of T, and all scalars c, d.
+This is just a combination of (1) and (2) above.
