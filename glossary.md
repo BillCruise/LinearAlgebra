@@ -131,6 +131,28 @@ Let A be an mxn matrix. Then the following statements are logically equivalent. 
 
 A system of linear equations is said to be **homogeneous** if it can be written in the form Ax = 0, where A is an mxn matrix, and 0 is the zero vector in Rm. A homogeneous system always has at least one solution, namely, x = 0 (the zero vector in Rn). This zero solution is usually called the **trivial solution**. For a given equation Ax = 0, the important question is whether there exists a **nontrivial** solution.
 
+## 1.7 - Linear Independence
+
+An indexed set of vectors {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> is said to be **linearly independent** if the vector equation
+
+x<sub>1</sub>**v**<sub>1</sub> + x<sub>2</sub>**v**<sub>2</sub> + ... + x<sub>p</sub>**v**<sub>p</sub> = **0**
+
+has only the trivial solution. The set {v<sub>1</sub>,...,v<sub>p</sub>} is said to be **linearly dependent** if there exist weights c<sub>1</sub>,...,c<sub>p</sub>, not all zero such that
+
+c<sub>1</sub>**v**<sub>1</sub> + c<sub>2</sub>**v**<sub>2</sub> + ... + c<sub>p</sub>**v**<sub>p</sub> = **0**
+
+The equation above is called a **linear dependence relation** (LDR) among **v**<sub>1</sub>,...,**v**<sub>p</sub> when the weights are not all zero.
+
+A set of two vectors {**v<sub>1</sub>, **v**<sub>2</sub>} is lenearly dependent if one of the vectors is a multiple of the other. The set is linearly independent if and only if neither of the vectors is a multiple of the other.
+
+An indexed set S = {v<sub>1</sub>,...,v<sub>p</sub>} of two or more vectors is linearly dependent if and only if at least one of the vectors in S is a linear combination of the others.
+
+Theorem: If a set contains more vectors than there are entries in each vector, then the set is linearly dependent. That is, and set {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> is linearly dependent if p > n.
+
+Warning: The theorem above says nothing about the case where the number of vectors in the set does *not* exceed the number of entries in each vector.
+
+Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> contains the zero vector, then the set is linearly dependent.
+
 ## 1.8 - Introduction to Linear Transformations
 
 A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : Rn -> Rm indicates that the domain of T is Rn and the codomain is Rm.
