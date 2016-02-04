@@ -42,3 +42,18 @@ u <- c(1, 0, -4)
 A %*% u
 
 
+# Exercise 3
+A <- matrix(data=c(1, 0, -2,
+                   -2, 1, 6,
+                   3, 2, -5), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(-1, 7, -3), nrow=3, ncol=1, byrow=FALSE)
+solve(A, b)
+
+
+# Exercise 4
+A <- matrix(data=c(1, -3, 2,
+                   0, 1, -4,
+                   3, -5, -9), nrow=3, ncol=3, byrow=TRUE)    
+b <- matrix(data=c(6, -7, -9), nrow=3, ncol=1, byrow=FALSE)
+solve(A, b)
+
