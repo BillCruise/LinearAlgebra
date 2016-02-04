@@ -60,7 +60,7 @@ A **pivot** is any nonzero number in a pivot position that is used as needed to 
 
 The sequence of row reduction steps used to get to *row echelon form* are called the **forward phase**.  The sequence of row reduction steps that produces the unique *reduced echelon form* are called the **backward phase**.
 
-The variables (x1, x2,...) corresponding to pivot columns in the augmented matrix are called **basic variables**.  The other variables corresponding to columns with no pivot are called **free variables**.
+The variables (x<sub>1</sub>, x<sub>2</sub>,...) corresponding to pivot columns in the augmented matrix are called **basic variables**.  The other variables corresponding to columns with no pivot are called **free variables**.
 
 ## 1.3 Vector Equations
 
@@ -91,11 +91,11 @@ For all **u**, **v**, **w**, in R<sup>n</sup> and all scalars *c* and *d*:
 7. c(d**u**) = cd(**u**)
 8. 1**u** = **u**
 
-Given vectors v1, v2,...,vp and scalars c1, c2,...,cp, the vector **y** defined by
+Given vectors v<sub>1</sub>, v<sub>2</sub>,...,v<sub>p</sub> and scalars c<sub>1</sub>, c<sub>2</sub>,...,c<sub>p</sub>, the vector **y** defined by
 
-**y** = c1v1 + c2v2 + ... + cpvp
+**y** = c<sub>1</sub>v<sub>1</sub> + c<sub>2</sub>v<sub>2</sub> + ... + c<sub>p</sub>v<sub>p</sub>
 
-is called a **linear combination of vectors v1,...,vp with **weights** c1,...,cp.
+is called a **linear combination** of vectors v<sub>1</sub>,...,v<sub>p</sub> with **weights** c<sub>1</sub>,...,c<sub>p</sub>.
 
 The set of all possible linear combinations of a set of vectors is called the **span** of the set.
 
