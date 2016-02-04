@@ -25,7 +25,7 @@ A system of linear equations has
 
 A system of linear equations is said to be **consistent** if it has either one solution or infinitely many solutions; A system is **inconsistent** if it has no solution.
 
-The essential information of a linear system can be recorded compactly in a rectangular array called a **matrix**.
+The essential information of a linear system can be recorded compactly in a rectangular array called a **matrix**. The **augmented matrix** of a system consists of the coefficient matrix with an added column containing the constants from the right hand sides of the equations.
 
 Three basic **row operations** are used to simplify a linear system:  
 
@@ -57,6 +57,48 @@ Row echelon form is not unique, but reduced echelon form is unique.
 A **pivot position** in matrix A is a location in A that corresponds to a leading 1 in the reduced echelon form of A. A **pivot column** is a column of A that contains a pivot position.
 
 A **pivot** is any nonzero number in a pivot position that is used as needed to create zeros via row operations.
+
+The sequence of row reduction steps used to get to *row echelon form* are called the **forward phase**.  The sequence of row reduction steps that produces the unique *reduced echelon form* are called the **backward phase**.
+
+The variables (x1, x2,...) corresponding to pivot columns in the augmented matrix are called **basic variables**.  The other variables corresponding to columns with no pivot are called **free variables**.
+
+## 1.3 Vector Equations
+
+A matrix with only one column is called a **column vector**, or simply a **vector**.  Two vectors in R<sup>n</sup> are **equal** if and only if their corresponding entries are equal. Vectors in R<sup>2</sup> are *ordered pairs* of real numbers.
+
+Given two vectors **u** and **v** in R<sup>2</sup>, their **sum** is the vector **u** + **v** obtained by adding the corresponding entries of **u** and **v**.
+
+Given a vector **u** and a real number *c*, the **scalar multiple** of **u** by *c* is the vector c**u** obtained by multiplying each entry in **u** by *c*.  The number *c* in c**u** is called a scalar.
+
+### Parallelogram Rule for Addition
+
+If **u** and **v** in R<sup>2</sup> are represented as points in the plane, then **u** + **v** corresponds to the fourth vertex of the parallelogram wose other vertices are **0**, **u**, and **v**.
+
+Vectors in R<sup>3</sup> are 3x1 column matrices with three entries. The are represented geometrically by points in a 3D coordinate space.  Generally, vectors in R<sup>n</sup> are nx1 column matrices with n entries.
+
+The vector whose entries are all zero is called the **zero vector** and is denoted by **0**.
+
+### Algebraic Properties of R<sup>n</sup>
+
+For all **u**, **v**, **w**, in R<sup>n</sup> and all scalars *c* and *d*:
+
+1. **u** + **v** = **v** + **u**
+2. (**u** + **v**) + **w** = **v** + (**u** + **w**)
+3. **u** + **0** = **0** + **u** = **u**
+4. **u** + (-**u**) = -**u** + **u** = 0, where -**u** denotes (-1)**u**
+5. *c*(**u** + **v**) = c**u** + c**v**
+6. (*c* + *d*)**u** = c**u** + d**u**
+7. c(d**u**) = cd(**u**)
+8. 1**u** = **u**
+
+Given vectors v1, v2,...,vp and scalars c1, c2,...,cp, the vector **y** defined by
+
+**y** = c1v1 + c2v2 + ... + cpvp
+
+is called a **linear combination of vectors v1,...,vp with **weights** c1,...,cp.
+
+The set of all possible linear combinations of a set of vectors is called the **span** of the set.
+
 
 ## 1.4 The Matrix Equation
 
