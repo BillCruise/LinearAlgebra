@@ -102,29 +102,29 @@ The set of all possible linear combinations of a set of vectors is called the **
 
 ## 1.4 The Matrix Equation
 
-If A is an mxn matrix, with columns a1,...,an, and if x is in Rn, then the **product** of A and x, denoted by Ax is the linear combination of the columns of A using the corresponding entries in x as weights (a1,...,an above are vectors).
+If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in R<sup>n</sup>, then the **product** of A and **x**, denoted by A**x** is the linear combination of the columns of A using the corresponding entries in **x** as weights (a<sub>1</sub>,...,a<sub>n</sub> above are vectors).
 
 ### Theorem:
-If A is an mxn matrix, with columns a1,...,an, and if x is in Rn, the matrix equation
+If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in R<sup>n</sup>, the matrix equation
 
-Ax = b
+A**x** = **b**
 
 has the same solution set as the vector equation
 
-x1a1 + x2a2 + ... + xnan = b
+x<sub>1</sub>a<sub>1</sub> + x<sub>2</sub>a<sub>2</sub> + ... + x<sub>n</sub>a<sub>n</sub> = **b**
 
 which has the same solution set as the system of linear equations whose augmented matrix is
 
-[a1 a2 ... an b]
+[a<sub>1</sub> a<sub>2</sub> ... a<sub>n</sub> b]
 
-The equation Ax = b has a solution if an only if b is a linear combination of the columns of A.
+The equation A**x** = **b** has a solution if an only if **b** is a linear combination of the columns of A.
 
 ### Theorem
 Let A be an mxn matrix. Then the following statements are logically equivalent. (That is, for a particular A, they are all true statements, or all are false.)
 
-1. For each b in Rm, the equation Ax = b has a solution.
-2. Each b in Rm is a linear combination of the columns of A.
-3. The columns of A span Rm.
+1. For each **b** in R<sup>m</sup>, the equation A**x** = b has a solution.
+2. Each **b** in R<sup>m</sup> is a linear combination of the columns of A.
+3. The columns of A span R<sup>m</sup>.
 4. A has a pivot position in every row.
 
 ## 1.5 Solution Sets of Linear Systems
