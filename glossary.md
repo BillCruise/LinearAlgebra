@@ -178,3 +178,58 @@ T(cu + dv) = cT(u) + dT(v)
 
 for all vectors u, v in the domain of T, and all scalars c, d.
 This is just a combination of (1) and (2) above.
+
+
+## 2.1 Matrix Operations
+
+The **diagonal entries** of an mxn matrix A = [a<sub>ij</sub>] are a<sub>11</sub>, a<sub>22</sub>, a<sub>33</sub>,..., and they form the **main diagonal** of A. A **diagonal matrix** is a square nxn matrix whose non-diagonal entries are zero.  An mxn matrix whose entries are all zero is a **zero matrix**.
+
+Two matrices are **equal** if they have the same size (i.e., the same number of rows and the same number of columns) and if their corresponding columns are equal, which amounts to saying that their corresponding entries are equal.
+
+If A and B are mxn matrices, the *sum* A + B is the mxn matrix whose columns are the sums of the corresponding columns in A and B.
+
+Let A, B, and C be matrices of the same size, and let r and s be scalars.
+
+1. A + B = B + A
+2. (A + B) + C = A + (B + C)
+3. A + 0 = A
+4. r(A + B) = rA + rB
+5. (r + s)A = rA + sA
+6. r(sA) = (rs)A
+
+If A is an mxn matrix, and B is an nxp matrix with columns b<sub>1</sub>,...,b<sub>p</sub>, then the product AB is the mxp matrix whose columns are Ab<sub>1</sub>,...,Ab<sub>p</sub>. That is
+
+AB = A[b<sub>1</sub> b<sub>2</sub> ... b<sub>p</sub>] = [Ab<sub>1</sub> Ab<sub>2</sub> ... Ab<sub>p</sub>]
+
+Each column of AB is a linear combination of the columns of A using weights from the corresponding column of B.
+
+Let A be an mxn matrix, and let B and C have sizes for which the indicated sums and products are defined.
+
+1. A(BC) = (AB)C - associative law of multiplication
+2. A(B + C) = AB + AC - left distributive law
+3. (B + C)A = BA + CA - right distributive law
+4. r(AB) = (rA)B = A(rB) - for any scalar r
+5. I<sub>m</sub>A = A = AI<sub>m</sub> - identity for matrix multiplication
+
+If AB = BA, we say that A and B **commute** with one another.
+
+### Warnings:
+
+1. In general, AB != BA
+2. The cancellation laws do not hold for matrix multiplication. Tha tis, if AB = AC, then it is not true in general that B = C.
+3. If a product AB is the zero matrix, you cannot conclude in general that either A = 0 or B = 0.
+
+If A is an nxn matrix and if k is a positive integer, then A<sup>k</sup> denotes the product of k copies of A:
+
+A<sup>k</sup> = A...A
+
+Given an mxn matrix, the **transpose** of A is the nxm matrix, denoted by A<sup>T</sup>, whose columns are formed from the corresponding rows of A.
+
+Let A and B denote matrices whose sizes are appropriate for the following subs and products.
+
+1. (A<sup>T</sup>)<sup>T</sup> = A
+2. (A + B)<sup>T</sup> = A<sup>T</sup> + B<sup>T</sup>
+3. For any scalar r, (rA)<sup>T</sup> = rA<sup>T</sup>
+4. (AB)<sup>T</sup> = B<sup>T</sup>A<sup>T</sup>
+
+The transpose of a product of matrices equals the product of their transposes in reverse order.
