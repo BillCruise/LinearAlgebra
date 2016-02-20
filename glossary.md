@@ -245,6 +245,7 @@ A matrix that is not invertible is sometimes called a **singular** matrix, and a
 Let A = 
 
 > | a b |
+>
 > | c d |
 
 If ad - bc != 0, then as is invertible and the quantity ad - bc is called the **determinant** of A. If ad - bc = 0, then as is not invertible.
