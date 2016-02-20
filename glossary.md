@@ -233,3 +233,38 @@ Let A and B denote matrices whose sizes are appropriate for the following subs a
 4. (AB)<sup>T</sup> = B<sup>T</sup>A<sup>T</sup>
 
 The transpose of a product of matrices equals the product of their transposes in reverse order.
+
+## 2.2 The Inverse of a Matrix
+
+An nxn matrix A is **invertible** if there is an nxn matrix C such that AC = CA = I, where I = I<sub>n</sub>, the nxn identity matrix. In this case, C is the **inverse** of A. The inverse of a matrix is unique and is denoted by A<sup>-1</sup>, so that
+
+A<sup>-1</sup>A = I and AA<sup>-1</sup> = I
+
+A matrix that is not invertible is sometimes called a **singular** matrix, and an invertible matrix is called **nonsingular**.
+
+Let A = 
+
+> | a b |
+> | c d |
+
+If ad - bc != 0, then as is invertible and the quantity ad - bc is called the **determinant** of A. If ad - bc = 0, then as is not invertible.
+
+If A is an invertible nxn matrix, then for each b in R<sup>n</sup>, the equation Ax = b has the unique solution x = A<sup>-1</sup>b.
+
+Properties of invertible matrices:
+
+1. If A is an invertible matrix, then A<sup>-1</sup> is invertible and (A<sup>-1</sup>)<sup>-1</sup> = A.
+2. If A and B are nxn invertible matrices, then so is AB, and the inverse of AB is the product of the inverses of A and B in the reverse order. That is (AB)<sup>-1</sup> = B<sup>-1</sup>A<sup>-1</sup>
+3. If A is an invertible matric, then so is A<sup>-T</sup>, and the inverse of A<sup>T</sup> is the transpose of A<sup>-1</sup>. That is (A<sup>T</sup>)<sup>-1</sup> = (A<sup>-1</sup>)<sup>-T</sup>
+
+An **elementary** matrix is one that is obtained by performing a sinble elementary row operation on an identity matrix.
+
+If an elementary frow operation is performed on an mxn matrix A, the resulting matrix can be written as EA, where the mxm matrix E is created by performing the same row operation on I<sub>m</sub>.
+
+Each elementary matrix E is invertible. The inverse of E is the elementary matrix of the same type that tranforms E back into I.
+
+The nxn matrix A is invertible if and only if A is row equivalent to I<sub>n</sub>, and in this case, andy sequenc of elementary row operations that reduces A to I<sub>n</sub> also tranforms I<sub>n</sub> into A<sub>-1</sub>.
+
+
+
+
