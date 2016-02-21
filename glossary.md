@@ -267,5 +267,33 @@ Each elementary matrix E is invertible. The inverse of E is the elementary matri
 The nxn matrix A is invertible if and only if A is row equivalent to I<sub>n</sub>, and in this case, andy sequenc of elementary row operations that reduces A to I<sub>n</sub> also tranforms I<sub>n</sub> into A<sub>-1</sub>.
 
 
+## 2.3 Characterizations of Invertible Matrices
+
+### The Invertible Matrix Theorem
+
+Let A be a square nxn matrix. Then the following statements are equivalent. That is, for a given A, the statements are either all true or all false.
+
+1. A is an invertible matrix.
+2. A is row equivalent to the nxn identity matrix.
+3. A has n pivot points.
+4. The equation Ax = 0 has only the trivial solution.
+5. The columns of A form a linearly independent set.
+6. The linear transformation x |-> Ax is one-to-one.
+7. The equation Ax = b has at least one solution for each b in R<sup>n</sup>.
+8. The columns of A span R<sup>n</sup>.
+9. The linear transformation x |-> Ax maps R<sup>n</sup> onto R<sup>n</sup>.
+10. There is an nxn matrix C such that CA = I.
+11. There is an nxn matrix D such that AD = I.
+12. A<sup>T</sup> is an invertible matrix.
+
+Let A and B be square matrices. If AB = I, then A and B are both invertible, with B = A<sup>-1</sup> and A = B<sup>-1</sup>.
+
+A linear transformation T:R<sup>n</sup> |-> R<sup>n</sup> is said to be **invertible** if there exists a function S:R<sup>n</sup> |-> R<sup>n</sup> such that
+
+1. S(T(x)) = x for all x in R<sup>n</sup>
+2. T(S(x)) = x for all x in R<sup>n</sup>
+
+If such an S exists, it is unique and must be a linear transformation. We call S the **inverse** of T and write it as T<sup>-1</sup>.
+
 
 
