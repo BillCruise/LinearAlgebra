@@ -1,6 +1,6 @@
 # LinearAlgebra
 Linear Algebra examples in R
-Selected solutions to example problems from Linear Algebra and its Applications, 5th ed.
+Selected solutions to example problems from [Linear Algebra and its Applications, 5th ed.](http://www.amazon.com/Linear-Algebra-Its-Applications-Edition/dp/032198238X)
 by David C. Lay, Steven R. Lay, and Judi McDonald
 
 [Glossary of Terms](glossary.md)
@@ -24,9 +24,9 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 2. The Inverse of a Matrix
 3. Characterizations of Invertible Matrices
 4. Partitioned Matrices
-5. Matrix Factorizations
+5. [Matrix Factorizations](MatrixFactorization.R)
 6. The Leontief Input-Output Model
 7. Applications to Computer Graphics
-8. Subspaces of Rn
+8. Subspaces of R<sup>n</sup>
 9. Demension and Rank
 
