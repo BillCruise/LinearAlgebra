@@ -30,3 +30,23 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 8. Subspaces of R<sup>n</sup>
 9. Demension and Rank
 
+### Chapter 3: Determinants
+
+1. Introduction to Determinants
+2. Properties of Determinants
+3. Cramer's Rule, Volume, and Linear Transformations
+
+### Chapter 4: Vector Spaces
+
+1. Vector Spaces and Subspaces
+2. Null Spaces, Columns Spaces, and Linear Transformations
+3. Linearly Independent Sets; Bases
+4. Coordinate Systems
+5. The Dimension of a Vector Space
+6. Rank
+7. Change of Basis
+8. Applications to Difference Equations
+9. Application to Markov Chains
+
+
+
