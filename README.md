@@ -21,7 +21,7 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 ### Chapter 2: Matrix Algebra
 
 1. Matrix Operations
-2. The Inverse of a Matrix
+2. [The Inverse of a Matrix](InverseOfAMatrix.R)
 3. Characterizations of Invertible Matrices
 4. Partitioned Matrices
 5. [Matrix Factorizations](MatrixFactorization.R)
