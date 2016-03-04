@@ -300,6 +300,7 @@ If such an S exists, it is unique and must be a linear transformation. We call S
 A **factorization** of matrix A is an equation that expresses A as a product of two or more matrices.
 
 Algorithm for an LU Factorization:  
+
 1. Reduce A to an echelon form U by a sequence of row replacement operations, if possible. (If this is not possible, the matrix is not factorizable using the LU algorithm.)
 2. Place entries in L such that the same sequence of row operations reduces L to I.
 
