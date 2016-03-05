@@ -304,5 +304,24 @@ Algorithm for an LU Factorization:
 1. Reduce A to an echelon form U by a sequence of row replacement operations, if possible. (If this is not possible, the matrix is not factorizable using the LU algorithm.)
 2. Place entries in L such that the same sequence of row operations reduces L to I.
 
+## 2.8 Subspaces of R<sup>n</sup>
+
+A **subspace** of R<sup>n</sup> is any set H in R<sup>n</sup> that has three properties:
+
+1. The zero vector is in H.
+2. For each u and v in H, the sum u + v is in H. (H is closed under vector addition.)
+3. For each un H and each scalar c, the vector cu is in H. (H is closed under scalar multiplication.)
+
+The set consisting of only the zero vector in R<sup>n</sup> is called the **zero subspace**.
+
+The **column space** of a matrix A is the set Col A of all linear combinations of the columns of A. The column space of an mxn matrix is a subspace of R<sup>m</sup>.
+
+The **null space** of a matrix A is the set Nul A of all solutions of the homogeneous equation Ax = 0. The null space of an mxn matrix is a subspace of R<sup>n</sup>. Equivalently, the set of all solutions of a system Ax = 0 of m homogeneous linear equations in n unknowns is a subspace of R<sup>n</sup>.
+
+A **basis** for a subspace H of R<sup>n</sup> is a linearly independent set in H that spans H.
+
+The pivot columns of a matrix A form a basis for the column space of A. (*Warning*: be careful to use the pivot columns of A itself for the basis of Col A. The columns of an echelon form B are often not in the columns space of A.)
+
+
 
 
