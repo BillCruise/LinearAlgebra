@@ -334,4 +334,15 @@ The Rank Theorem says that if a matrix A has n columns, then rank A + dim Nul A 
 
 The Basis Theorem says: Let H be a p-dimensional subspace of R<sup>n</sup>. Any linearly independent set of exactly p elements in H is automatically a basis for H. Also, any set of p elements of H that spans H is automatically a basis for H.
 
+### The Invertible Matrix Theorem (continued)
+
+Let A be an nxn matrix. Then the following statements are each equivalent to the statement that A is an invertible matrix.
+
+1. The columns of A form a basis of R<sup>n</sup>
+2. Col A = R<sup>n</sup>
+3. dim Col A = n
+4. rank A = n
+5. Nul A = {0}
+6. dim Nul A = 0
+
 
