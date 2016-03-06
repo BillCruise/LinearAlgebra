@@ -322,6 +322,16 @@ A **basis** for a subspace H of R<sup>n</sup> is a linearly independent set in H
 
 The pivot columns of a matrix A form a basis for the column space of A. (*Warning*: be careful to use the pivot columns of A itself for the basis of Col A. The columns of an echelon form B are often not in the columns space of A.)
 
+## 2.9 Dimension and Rank
 
+Suppose the set B = {b<sub>1</sub>,...,b<sub>p</sub>} is a basis for a subspace H. For each x in H, the **coordinates of x relative to the basis B** are the weights c<sub>1</sub>,...,c<sub>p</sub> such that x = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>p</sub>b<sub>p</sub>, and the vector in R<sup>p</sup> [x]<sub>B</sub> is called the **coordinate vector of x (relative to B)** or the **B-coordinate vector of x**.
+
+The **dimension** of a nonzero subspace H, denoted by dim H, is the number of vectors in any basis for H. The dimension ofthe zero subspace {0} is defined to be zero. (The zero subspace has *no* basis, because the zero vector by itself forms a linearly dependent set.)
+
+The **rank** of a matrix A, denoted by rank A, is the demension of the column space of A.
+
+The Rank Theorem says that if a matrix A has n columns, then rank A + dim Nul A = n.
+
+The Basis Theorem says: Let H be a p-dimensional subspace of R<sup>n</sup>. Any linearly independent set of exactly p elements in H is automatically a basis for H. Also, any set of p elements of H that spans H is automatically a basis for H.
 
 
