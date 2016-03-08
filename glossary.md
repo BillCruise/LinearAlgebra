@@ -147,7 +147,7 @@ A set of two vectors {**v<sub>1</sub>, **v**<sub>2</sub>} is lenearly dependent 
 
 An indexed set S = {v<sub>1</sub>,...,v<sub>p</sub>} of two or more vectors is linearly dependent if and only if at least one of the vectors in S is a linear combination of the others.
 
-Theorem: If a set contains more vectors than there are entries in each vector, then the set is linearly dependent. That is, and set {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> is linearly dependent if p > n.
+Theorem: If a set contains more vectors than there are entries in each vector, then the set is linearly dependent. That is, and set {v<sub>1</sub>,...,v<sub>p</sub>} in ℝ<sup>n</sup> is linearly dependent if p > n.
 
 Warning: The theorem above says nothing about the case where the number of vectors in the set does *not* exceed the number of entries in each vector.
 
@@ -155,8 +155,8 @@ Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> contain
 
 ## 1.8 - Introduction to Linear Transformations
 
-A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : Rn -> Rm indicates that the domain of T is Rn and the codomain is Rm.
-For x in Rn, the vector T(x) in Rm is called the **image** of x (under the action of T).
+A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : ℝn -> Rm indicates that the domain of T is Rn and the codomain is ℝm.
+For x in ℝn, the vector T(x) in Rm is called the **image** of x (under the action of T).
 The set of all images T(x) is called the **range** of T.
 
 A transformation (or mapping) T is **linear** if:
@@ -339,7 +339,7 @@ The Basis Theorem says: Let H be a p-dimensional subspace of ℝ<sup>n</sup>. An
 Let A be an nxn matrix. Then the following statements are each equivalent to the statement that A is an invertible matrix.
 
 1. The columns of A form a basis of ℝ<sup>n</sup>
-2. Col A = R<sup>n</sup>
+2. Col A = ℝ<sup>n</sup>
 3. dim Col A = n
 4. rank A = n
 5. Nul A = {0}
