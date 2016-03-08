@@ -133,7 +133,7 @@ A system of linear equations is said to be **homogeneous** if it can be written 
 
 ## 1.7 - Linear Independence
 
-An indexed set of vectors {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> is said to be **linearly independent** if the vector equation
+An indexed set of vectors {v<sub>1</sub>,...,v<sub>p</sub>} in ℝ<sup>n</sup> is said to be **linearly independent** if the vector equation
 
 x<sub>1</sub>**v**<sub>1</sub> + x<sub>2</sub>**v**<sub>2</sub> + ... + x<sub>p</sub>**v**<sub>p</sub> = **0**
 
@@ -155,8 +155,8 @@ Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> contain
 
 ## 1.8 - Introduction to Linear Transformations
 
-A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : ℝn -> ℝm indicates that the domain of T is Rn and the codomain is ℝm.
-For x in ℝn, the vector T(x) in Rm is called the **image** of x (under the action of T).
+A **transformation** (or **function** or **mapping**) T from ℝ<sup>n</sup> to ℝ<sup>m</sup> is a rule that assigns to each vector x in ℝ<sup>n</sup> a vector T(x) in ℝ<sup>m</sup>. The set ℝ<sup>n</sup> is called the **domain** of T, and ℝ<sup>m</sup> is called the **codomain** of T. The notation T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> indicates that the domain of T is ℝ<sup>n</sup> and the codomain is ℝ<sup>m</sup>.
+For x in ℝ<sup>n</sup>, the vector T(x) in ℝ<sup>m</sup> is called the **image** of x (under the action of T).
 The set of all images T(x) is called the **range** of T.
 
 A transformation (or mapping) T is **linear** if:
