@@ -64,23 +64,23 @@ The variables (x<sub>1</sub>, x<sub>2</sub>,...) corresponding to pivot columns 
 
 ## 1.3 Vector Equations
 
-A matrix with only one column is called a **column vector**, or simply a **vector**.  Two vectors in R<sup>n</sup> are **equal** if and only if their corresponding entries are equal. Vectors in R<sup>2</sup> are *ordered pairs* of real numbers.
+A matrix with only one column is called a **column vector**, or simply a **vector**.  Two vectors in ℝ<sup>n</sup> are **equal** if and only if their corresponding entries are equal. Vectors in ℝ<sup>2</sup> are *ordered pairs* of real numbers.
 
-Given two vectors **u** and **v** in R<sup>2</sup>, their **sum** is the vector **u** + **v** obtained by adding the corresponding entries of **u** and **v**.
+Given two vectors **u** and **v** in ℝ<sup>2</sup>, their **sum** is the vector **u** + **v** obtained by adding the corresponding entries of **u** and **v**.
 
 Given a vector **u** and a real number *c*, the **scalar multiple** of **u** by *c* is the vector c**u** obtained by multiplying each entry in **u** by *c*.  The number *c* in c**u** is called a scalar.
 
 ### Parallelogram Rule for Addition
 
-If **u** and **v** in R<sup>2</sup> are represented as points in the plane, then **u** + **v** corresponds to the fourth vertex of the parallelogram wose other vertices are **0**, **u**, and **v**.
+If **u** and **v** in ℝ<sup>2</sup> are represented as points in the plane, then **u** + **v** corresponds to the fourth vertex of the parallelogram wose other vertices are **0**, **u**, and **v**.
 
-Vectors in R<sup>3</sup> are 3x1 column matrices with three entries. The are represented geometrically by points in a 3D coordinate space.  Generally, vectors in R<sup>n</sup> are nx1 column matrices with n entries.
+Vectors in ℝ<sup>3</sup> are 3x1 column matrices with three entries. The are represented geometrically by points in a 3D coordinate space.  Generally, vectors in ℝ<sup>n</sup> are nx1 column matrices with n entries.
 
 The vector whose entries are all zero is called the **zero vector** and is denoted by **0**.
 
-### Algebraic Properties of R<sup>n</sup>
+### Algebraic Properties of ℝ<sup>n</sup>
 
-For all **u**, **v**, **w**, in R<sup>n</sup> and all scalars *c* and *d*:
+For all **u**, **v**, **w**, in ℝ<sup>n</sup> and all scalars *c* and *d*:
 
 1. **u** + **v** = **v** + **u**
 2. (**u** + **v**) + **w** = **v** + (**u** + **w**)
@@ -102,10 +102,10 @@ The set of all possible linear combinations of a set of vectors is called the **
 
 ## 1.4 The Matrix Equation
 
-If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in R<sup>n</sup>, then the **product** of A and **x**, denoted by A**x** is the linear combination of the columns of A using the corresponding entries in **x** as weights (a<sub>1</sub>,...,a<sub>n</sub> above are vectors).
+If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in ℝ<sup>n</sup>, then the **product** of A and **x**, denoted by A**x** is the linear combination of the columns of A using the corresponding entries in **x** as weights (a<sub>1</sub>,...,a<sub>n</sub> above are vectors).
 
 ### Theorem:
-If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in R<sup>n</sup>, the matrix equation
+If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in ℝ<sup>n</sup>, the matrix equation
 
 A**x** = **b**
 
@@ -122,9 +122,9 @@ The equation A**x** = **b** has a solution if an only if **b** is a linear combi
 ### Theorem
 Let A be an mxn matrix. Then the following statements are logically equivalent. (That is, for a particular A, they are all true statements, or all are false.)
 
-1. For each **b** in R<sup>m</sup>, the equation A**x** = b has a solution.
-2. Each **b** in R<sup>m</sup> is a linear combination of the columns of A.
-3. The columns of A span R<sup>m</sup>.
+1. For each **b** in ℝ<sup>m</sup>, the equation A**x** = b has a solution.
+2. Each **b** in ℝ<sup>m</sup> is a linear combination of the columns of A.
+3. The columns of A span ℝ<sup>m</sup>.
 4. A has a pivot position in every row.
 
 ## 1.5 Solution Sets of Linear Systems
@@ -155,7 +155,7 @@ Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> contain
 
 ## 1.8 - Introduction to Linear Transformations
 
-A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : ℝn -> Rm indicates that the domain of T is Rn and the codomain is ℝm.
+A **transformation** (or **function** or **mapping**) T from Rn to Rm is a rule that assigns to each vector x in Rn a vector T(x) in Rm. The set Rn is called the **domain** of T, and Rm is called the **codomain** of T. The notation T : ℝn -> ℝm indicates that the domain of T is Rn and the codomain is ℝm.
 For x in ℝn, the vector T(x) in Rm is called the **image** of x (under the action of T).
 The set of all images T(x) is called the **range** of T.
 
