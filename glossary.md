@@ -288,10 +288,10 @@ Let A be a square nxn matrix. Then the following statements are equivalent. That
 
 Let A and B be square matrices. If AB = I, then A and B are both invertible, with B = A<sup>-1</sup> and A = B<sup>-1</sup>.
 
-A linear transformation T:R<sup>n</sup> |-> R<sup>n</sup> is said to be **invertible** if there exists a function S:R<sup>n</sup> |-> R<sup>n</sup> such that
+A linear transformation T:ℝ<sup>n</sup> |-> ℝ<sup>n</sup> is said to be **invertible** if there exists a function S:R<sup>n</sup>|-> ℝ<sup>n</sup> such that
 
-1. S(T(x)) = x for all x in R<sup>n</sup>
-2. T(S(x)) = x for all x in R<sup>n</sup>
+1. S(T(x)) = x for all x in ℝ<sup>n</sup>
+2. T(S(x)) = x for all x in ℝ<sup>n</sup>
 
 If such an S exists, it is unique and must be a linear transformation. We call S the **inverse** of T and write it as T<sup>-1</sup>.
 
@@ -304,27 +304,27 @@ Algorithm for an LU Factorization:
 1. Reduce A to an echelon form U by a sequence of row replacement operations, if possible. (If this is not possible, the matrix is not factorizable using the LU algorithm.)
 2. Place entries in L such that the same sequence of row operations reduces L to I.
 
-## 2.8 Subspaces of R<sup>n</sup>
+## 2.8 Subspaces of ℝ<sup>n</sup>
 
-A **subspace** of R<sup>n</sup> is any set H in R<sup>n</sup> that has three properties:
+A **subspace** of ℝ<sup>n</sup> is any set H in ℝ<sup>n</sup> that has three properties:
 
 1. The zero vector is in H.
 2. For each u and v in H, the sum u + v is in H. (H is closed under vector addition.)
 3. For each un H and each scalar c, the vector cu is in H. (H is closed under scalar multiplication.)
 
-The set consisting of only the zero vector in R<sup>n</sup> is called the **zero subspace**.
+The set consisting of only the zero vector in ℝ<sup>n</sup> is called the **zero subspace**.
 
-The **column space** of a matrix A is the set Col A of all linear combinations of the columns of A. The column space of an mxn matrix is a subspace of R<sup>m</sup>.
+The **column space** of a matrix A is the set Col A of all linear combinations of the columns of A. The column space of an mxn matrix is a subspace of ℝ<sup>m</sup>.
 
-The **null space** of a matrix A is the set Nul A of all solutions of the homogeneous equation Ax = 0. The null space of an mxn matrix is a subspace of R<sup>n</sup>. Equivalently, the set of all solutions of a system Ax = 0 of m homogeneous linear equations in n unknowns is a subspace of R<sup>n</sup>.
+The **null space** of a matrix A is the set Nul A of all solutions of the homogeneous equation Ax = 0. The null space of an mxn matrix is a subspace of ℝ<sup>n</sup>. Equivalently, the set of all solutions of a system Ax = 0 of m homogeneous linear equations in n unknowns is a subspace of ℝ<sup>n</sup>.
 
-A **basis** for a subspace H of R<sup>n</sup> is a linearly independent set in H that spans H.
+A **basis** for a subspace H of ℝ<sup>n</sup> is a linearly independent set in H that spans H.
 
 The pivot columns of a matrix A form a basis for the column space of A. (*Warning*: be careful to use the pivot columns of A itself for the basis of Col A. The columns of an echelon form B are often not in the columns space of A.)
 
 ## 2.9 Dimension and Rank
 
-Suppose the set B = {b<sub>1</sub>,...,b<sub>p</sub>} is a basis for a subspace H. For each x in H, the **coordinates of x relative to the basis B** are the weights c<sub>1</sub>,...,c<sub>p</sub> such that x = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>p</sub>b<sub>p</sub>, and the vector in R<sup>p</sup> [x]<sub>B</sub> is called the **coordinate vector of x (relative to B)** or the **B-coordinate vector of x**.
+Suppose the set B = {b<sub>1</sub>,...,b<sub>p</sub>} is a basis for a subspace H. For each x in H, the **coordinates of x relative to the basis B** are the weights c<sub>1</sub>,...,c<sub>p</sub> such that x = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>p</sub>b<sub>p</sub>, and the vector in ℝ<sup>p</sup> [x]<sub>B</sub> is called the **coordinate vector of x (relative to B)** or the **B-coordinate vector of x**.
 
 The **dimension** of a nonzero subspace H, denoted by dim H, is the number of vectors in any basis for H. The dimension ofthe zero subspace {0} is defined to be zero. (The zero subspace has *no* basis, because the zero vector by itself forms a linearly dependent set.)
 
@@ -332,13 +332,13 @@ The **rank** of a matrix A, denoted by rank A, is the demension of the column sp
 
 The Rank Theorem says that if a matrix A has n columns, then rank A + dim Nul A = n.
 
-The Basis Theorem says: Let H be a p-dimensional subspace of R<sup>n</sup>. Any linearly independent set of exactly p elements in H is automatically a basis for H. Also, any set of p elements of H that spans H is automatically a basis for H.
+The Basis Theorem says: Let H be a p-dimensional subspace of ℝ<sup>n</sup>. Any linearly independent set of exactly p elements in H is automatically a basis for H. Also, any set of p elements of H that spans H is automatically a basis for H.
 
 ### The Invertible Matrix Theorem (continued)
 
 Let A be an nxn matrix. Then the following statements are each equivalent to the statement that A is an invertible matrix.
 
-1. The columns of A form a basis of R<sup>n</sup>
+1. The columns of A form a basis of ℝ<sup>n</sup>
 2. Col A = R<sup>n</sup>
 3. dim Col A = n
 4. rank A = n
