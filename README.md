@@ -32,7 +32,7 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 
 ### Chapter 3: Determinants
 
-1. Introduction to Determinants
+1. [Introduction to Determinants](IntroToDeterminants.R)
 2. Properties of Determinants
 3. Cramer's Rule, Volume, and Linear Transformations
 
