@@ -143,7 +143,7 @@ c<sub>1</sub>**v**<sub>1</sub> + c<sub>2</sub>**v**<sub>2</sub> + ... + c<sub>p<
 
 The equation above is called a **linear dependence relation** (LDR) among **v**<sub>1</sub>,...,**v**<sub>p</sub> when the weights are not all zero.
 
-A set of two vectors {**v<sub>1</sub>, **v**<sub>2</sub>} is lenearly dependent if one of the vectors is a multiple of the other. The set is linearly independent if and only if neither of the vectors is a multiple of the other.
+A set of two vectors {**v**<sub>1</sub>, **v**<sub>2</sub>} is linearly dependent if one of the vectors is a multiple of the other. The set is linearly independent if and only if neither of the vectors is a multiple of the other.
 
 An indexed set S = {v<sub>1</sub>,...,v<sub>p</sub>} of two or more vectors is linearly dependent if and only if at least one of the vectors in S is a linear combination of the others.
 
@@ -151,7 +151,7 @@ Theorem: If a set contains more vectors than there are entries in each vector, t
 
 Warning: The theorem above says nothing about the case where the number of vectors in the set does *not* exceed the number of entries in each vector.
 
-Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in R<sup>n</sup> contains the zero vector, then the set is linearly dependent.
+Theorem: If a set S = {v<sub>1</sub>,...,v<sub>p</sub>} in ℝ<sup>n</sup> contains the zero vector, then the set is linearly dependent.
 
 ## 1.8 - Introduction to Linear Transformations
 
@@ -161,8 +161,8 @@ The set of all images T(x) is called the **range** of T.
 
 A transformation (or mapping) T is **linear** if:
 
-1. T(u + v) = T(u) + T(v); // for all u, v in the domain of T;
-2. T(cu) = cT(u); // for all scalars c and all u in the domain of T.
+1. T(u + v) = T(u) + T(v) for all **u**, **v** in the domain of T.
+2. T(cu) = cT(u) for all scalars c and all **u** in the domain of T.
 
 This means that linear transformations preserve the operations of vector addition and scalar multiplications.
 
