@@ -345,4 +345,13 @@ Let A be an nxn matrix. Then the following statements are each equivalent to the
 5. Nul A = {0}
 6. dim Nul A = 0
 
+## 3.1 Introdction to Determinants
+
+The number C<sub>ij</sub> = (-1)<sup>i+j</sup> det A<sub>ij</sub>, is called the **(i,j)-cofactor** of A, where A<sub>ij</sub> is the submatrix formed by deleting the ith row and jth column of A.
+
+**Cofactor expansion** is a formula for det A using cofactors associated with one row or one column, such as for row 1: det A = a<sub>11</sub>C<sub>11</sub> + ... + a<sub>1n</sub>C<sub>1n</sub>
+
+The **determinant** of a square matrix is the number defined inductively by a cofactor expansion along the first row of A. Also, (-1)<sup>r</sup> times the product of the diagonal entries in any echelon form U obtained from A by row replacements and row interchanges (but no scaling operations).
+
+If A is a triangular matrix, then det A is the product of the entries on the main diagonal of A.
 
