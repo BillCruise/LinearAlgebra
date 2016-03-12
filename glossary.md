@@ -353,5 +353,10 @@ The number C<sub>ij</sub> = (-1)<sup>i+j</sup> det A<sub>ij</sub>, is called the
 
 The **determinant** of a square matrix is the number defined inductively by a cofactor expansion along the first row of A. Also, (-1)<sup>r</sup> times the product of the diagonal entries in any echelon form U obtained from A by row replacements and row interchanges (but no scaling operations).
 
+The determinant of an nxn matrix A can be computed by a cofactor expansion across any row or down any column. The expansion across the ith row is:
+det A = a<sub>i1</sub>C<sub>i1</sub> + a<sub>i2</sub>C<sub>i2</sub> + ... + a<sub>in</sub>C<sub>in</sub>
+The cofactor expansion down the jth column is:
+det A = a<sub>1j</sub>C<sub>1j</sub> + a<sub>2j</sub>C<sub>2j</sub> + ... + a<sub>nj</sub>C<sub>nj</sub>
+
 If A is a triangular matrix, then det A is the product of the entries on the main diagonal of A.
 
