@@ -130,4 +130,13 @@ A <- matrix(data=c(4, 0, -7, 3, -5,
 detA <- det(A)
 
 
+# Exercise 14
+A <- matrix(data=c(6, 3, 2, 4, 0,
+                   9, 0, -4, 1, 0,
+                   8, -5, 6, 7, 1,
+                   2, 0, 0, 0, 0,
+                   4, 2, 3, 2, 0), nrow=5, ncol=5, byrow=TRUE)
+detA <- det(A)
+
+
 
