@@ -39,11 +39,27 @@ A <- matrix(data=c(3, 0, 4,
                    0, 5, -1), nrow=3, ncol=3, byrow=TRUE)
 detA <- det(A)
 
+
+# Exercise 2
+A <- matrix(data=c(0, 4, 1,
+                   5, -3, 0,
+                   2, 3, 1), nrow=3, ncol=3, byrow=TRUE)
+detA <- det(A)
+
+
 # Exercise 3
 A <- matrix(data=c(2, -2, 3,
                    3, 1, 2,
                    1, 3, -1), nrow=3, ncol=3, byrow=TRUE)
 detA <- det(A)
+
+
+# Exercise 4
+A <- matrix(data=c(1, 2, 4,
+                   3, 1, 1,
+                   2, 4, 2), nrow=3, ncol=3, byrow=TRUE)
+detA <- det(A)
+
 
 # Exercise 5
 A <- matrix(data=c(2, 3, -3,
@@ -51,11 +67,27 @@ A <- matrix(data=c(2, 3, -3,
                    6, 1, 5), nrow=3, ncol=3, byrow=TRUE)
 detA <- det(A)
 
+
+# Exercise 6
+A <- matrix(data=c(5, -2, 2,
+                   0, 3, -3,
+                   2, -4, 7), nrow=3, ncol=3, byrow=TRUE)
+detA <- det(A)
+
+
 # Exercise 7
 A <- matrix(data=c(4, 3, 0,
                    6, 5, 2,
                    9, 7, 3), nrow=3, ncol=3, byrow=TRUE)
 detA <- det(A)
+
+
+# Exercise 8
+A <- matrix(data=c(4, 1, 2,
+                   4, 0, 3,
+                   3, -2, 5), nrow=3, ncol=3, byrow=TRUE)
+detA <- det(A)
+
 
 # Exercise 9
 A <- matrix(data=c(4, 0, 0, 5,
@@ -65,11 +97,27 @@ A <- matrix(data=c(4, 0, 0, 5,
 detA <- det(A)
 
 
+# Exercise 10
+A <- matrix(data=c(1, -2, 5, 2,
+                   0, 0, 3, 0,
+                   2, -4, -3, 5,
+                   2, 0, 3, 5), nrow=4, ncol=4, byrow=TRUE)
+detA <- det(A)
+
+
 # Exercise 11
 A <- matrix(data=c(3, 5, -6, 4,
                    0, -2, 3, -3,
                    0, 0, 1, 5,
                    0, 0, 0, 3), nrow=4, ncol=4, byrow=TRUE)
+detA <- det(A)
+
+
+# Exercise 12
+A <- matrix(data=c(3, 0, 0, 0,
+                   7, -2, 0, 0,
+                   2, 6, 3, 0,
+                   3, -8, 4, -3), nrow=4, ncol=4, byrow=TRUE)
 detA <- det(A)
 
 
