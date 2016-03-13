@@ -351,7 +351,7 @@ The number C<sub>ij</sub> = (-1)<sup>i+j</sup> det A<sub>ij</sub>, is called the
 
 **Cofactor expansion** is a formula for det A using cofactors associated with one row or one column, such as for row 1: det A = a<sub>11</sub>C<sub>11</sub> + ... + a<sub>1n</sub>C<sub>1n</sub>
 
-The **determinant** of a square matrix is the number defined inductively by a cofactor expansion along the first row of A. Also, (-1)<sup>r</sup> times the product of the diagonal entries in any echelon form U obtained from A by row replacements and row interchanges (but no scaling operations).
+The **determinant** of a square matrix is the number defined inductively by a cofactor expansion along the first row of A. Also, (-1)<sup>r</sup> times the product of the diagonal entries in any echelon form U obtained from A by row replacements and row interchanges (but no scaling aoperations).
 
 The determinant of an nxn matrix A can be computed by a cofactor expansion across any row or down any column. The expansion across the ith row is:
 det A = a<sub>i1</sub>C<sub>i1</sub> + a<sub>i2</sub>C<sub>i2</sub> + ... + a<sub>in</sub>C<sub>in</sub>
@@ -360,3 +360,18 @@ det A = a<sub>1j</sub>C<sub>1j</sub> + a<sub>2j</sub>C<sub>2j</sub> + ... + a<su
 
 If A is a triangular matrix, then det A is the product of the entries on the main diagonal of A.
 
+## 3.2 Properties of Determinants
+
+### Row Operations
+
+Let A be a square matrix.
+
+1. If a multiple of one row of A is added to another row to produce a matrix B, then det B = det A.
+2. If two rows of A are interchanged to produce B, then det B = -det A.
+3. If one row of A is multiplied by k to produce B, then det B = k * det A.
+
+A square matrix A is invertible if and only if det A != 0.
+
+If A is an nxn matrix, then det A<sup>T</sup> = det A.
+
+If A and B are nxn matrices, then det AB = (det A)(det B).
