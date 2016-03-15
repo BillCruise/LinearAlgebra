@@ -248,7 +248,7 @@ Let A =
 >
 > | c d |
 
-If ad - bc != 0, then as is invertible and the quantity ad - bc is called the **determinant** of A. If ad - bc = 0, then as is not invertible.
+If ad - bc != 0, then as is invertible and the quantity ad - bc is called the **determinant** of A. If ad - bc = 0, then A is not invertible.
 
 If A is an invertible nxn matrix, then for each b in R<sup>n</sup>, the equation Ax = b has the unique solution x = A<sup>-1</sup>b.
 
