@@ -375,3 +375,11 @@ A square matrix A is invertible if and only if det A != 0.
 If A is an nxn matrix, then det A<sup>T</sup> = det A.
 
 If A and B are nxn matrices, then det AB = (det A)(det B).
+
+## 3.3 Cramer's Rule
+
+When an nxn matrix A has a non-zero determinant, the solutions to Ax = b can be found by **Cramer's rule**. Individual values for the unknown vector **x** can are given by:
+
+x<sub>i</sub> = det A<sub>i</sub>(b) / det A
+
+where A<sub>i</sub>(b) is the matrix formed by replacing the ith column of A with the vector b.
