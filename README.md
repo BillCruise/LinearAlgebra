@@ -28,12 +28,12 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 6. The Leontief Input-Output Model
 7. Applications to Computer Graphics
 8. Subspaces of R<sup>n</sup>
-9. Demension and Rank
+9. Dimension and Rank
 
 ### Chapter 3: Determinants
 
 1. [Introduction to Determinants](IntroToDeterminants.R)
-2. Properties of Determinants
+2. [Properties of Determinants](PropertiesOfDeterminants.R)
 3. Cramer's Rule, Volume, and Linear Transformations
 
 ### Chapter 4: Vector Spaces
