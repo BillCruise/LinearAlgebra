@@ -387,3 +387,13 @@ where A<sub>i</sub>(b) is the matrix formed by replacing the ith column of A wit
 The **adjugate** matrix of A is the transpose of its cofactor matrix.
 
 adj(A) = C<sup>T</sup>
+
+The adjugate is defined as it is so that the product of A with its adjugate yields a diagonal matrix whose diagonal entries are det(A),
+
+A adj(A) = det(A) I
+
+The inverse of A can be found by:
+
+adj(A) = det(A) A<sup>-1</sup>
+
+A<sup>-1</sup> = (1 / det(A)) adj(A)
