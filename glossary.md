@@ -383,3 +383,7 @@ When an nxn matrix A has a non-zero determinant, the solutions to Ax = b can be 
 x<sub>i</sub> = det A<sub>i</sub>(b) / det A
 
 where A<sub>i</sub>(b) is the matrix formed by replacing the ith column of A with the vector b.
+
+The **adjugate** matrix of A is the transpose of its cofactor matrix.
+
+adj(A) = C<sup>T</sup>
