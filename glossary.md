@@ -304,6 +304,14 @@ Algorithm for an LU Factorization:
 1. Reduce A to an echelon form U by a sequence of row replacement operations, if possible. (If this is not possible, the matrix is not factorizable using the LU algorithm.)
 2. Place entries in L such that the same sequence of row operations reduces L to I.
 
+When A = LU, the equation Ax = b can be written as L(Ux) = b. Substituting y for Ux, we can find x by solving the pair of equations
+
+Ly = b
+
+Ux = y
+
+First solve Ly = b for y, then solve Ux = y for x. Each equation is easy to solve because L and U are triangular.
+
 ## 2.8 Subspaces of ℝ<sup>n</sup>
 
 A **subspace** of ℝ<sup>n</sup> is any set H in ℝ<sup>n</sup> that has three properties:
