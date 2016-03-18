@@ -179,6 +179,7 @@ T(cu + dv) = cT(u) + dT(v)
 for all vectors u, v in the domain of T, and all scalars c, d.
 This is just a combination of (1) and (2) above.
 
+
 ## 1.9 The Matrix of a Linear Transformation
 
 Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation. Then there exists a unique matrix A such that:
@@ -191,6 +192,16 @@ A = [T(e<sub>1</sub> ... T(e<sub>n</sub>)]
 
 The matrix A above is called the **standard matrix for the linear transformation** T.
 
+A mapping T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> is said to be **onto** ℝ<sup>m</sup> if each b in ℝ<sup>m<sup> is the image of at least one x in ℝ<sup>n</sup>.
+
+A mapping T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> is said to be **one-to-one** if each b in ℝ<sup>m</sup> is the image of at most one x in ℝ<sup>n</sup>.
+
+Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation. Then T is one-to-one if and only if the equation T(x) = 0 has only the trivial solution.
+
+Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation, and let A be the standard matrix for T. Then:
+
+1. T maps ℝ<sup>n</sup> onto ℝ<sup>m</sup>  if and only if the columns of A span ℝ<sup>m</sup> ;
+2. T is one-to-one if and only if the columns of A are linearly independent.
 
 ## 2.1 Matrix Operations
 
