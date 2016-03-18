@@ -192,7 +192,7 @@ A = [T(e<sub>1</sub> ... T(e<sub>n</sub>)]
 
 The matrix A above is called the **standard matrix for the linear transformation** T.
 
-A mapping T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> is said to be **onto** ℝ<sup>m</sup> if each b in ℝ<sup>m<sup> is the image of at least one x in ℝ<sup>n</sup>.
+A mapping T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> is said to be **onto** ℝ<sup>m</sup> if each b in ℝ<sup>m</sup> is the image of at least one x in ℝ<sup>n</sup>.
 
 A mapping T : ℝ<sup>n</sup> -> ℝ<sup>m</sup> is said to be **one-to-one** if each b in ℝ<sup>m</sup> is the image of at most one x in ℝ<sup>n</sup>.
 
