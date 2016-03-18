@@ -179,6 +179,18 @@ T(cu + dv) = cT(u) + dT(v)
 for all vectors u, v in the domain of T, and all scalars c, d.
 This is just a combination of (1) and (2) above.
 
+## 1.9 The Matrix of a Linear Transformation
+
+Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation. Then there exists a unique matrix A such that:
+
+T(x) = Ax for all x in ℝ<sup>n</sup>
+
+A is the mxn matrix whose jth column is the vector T(e<sub>j</sub>), where e<sub>j</sub> is the jth column of the identity matrix in ℝ<sup>n</sup>:
+
+A = [T(e<sub>1</sub> ... T(e<sub>n</sub>)]
+
+The matrix A above is called the **standard matrix for the linear transformation** T.
+
 
 ## 2.1 Matrix Operations
 
