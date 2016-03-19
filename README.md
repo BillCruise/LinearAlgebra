@@ -34,7 +34,7 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 
 1. [Introduction to Determinants](IntroToDeterminants.R)
 2. [Properties of Determinants](PropertiesOfDeterminants.R)
-3. Cramer's Rule, Volume, and Linear Transformations
+3. [Cramer's Rule, Volume, and Linear Transformations](CramersRule.R)
 
 ### Chapter 4: Vector Spaces
 
