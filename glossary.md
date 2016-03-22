@@ -318,6 +318,14 @@ A linear transformation T:ℝ<sup>n</sup> |-> ℝ<sup>n</sup> is said to be **in
 
 If such an S exists, it is unique and must be a linear transformation. We call S the **inverse** of T and write it as T<sup>-1</sup>.
 
+## 2.4 Partitioned Matrices
+
+A **partitioned matrix** (or **block matrix**) is a matrix whose entries are themselves matrices of appropriate sizes.
+
+If matrices A and B are the same size and are partitioned in exactly the same way, then addition and scalar multiplication can be performed block by block. Matrix multiplication can be performed by the usual row-column rule if the column partition of A matches the row partition of B. If this is the case, we say that A and B are **conformable** for **block multiplication**.
+
+A **block diagonal matrix** is a partioned matrix with zero blocks of the main diagonal (of blocks). Such a matrix is invertible if and only if each block on the diagonal is invertible.
+
 ## 2.5 Matrix Factorizations
 
 A **factorization** of matrix A is an equation that expresses A as a product of two or more matrices.
