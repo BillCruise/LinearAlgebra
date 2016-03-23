@@ -188,7 +188,7 @@ T(x) = Ax for all x in ℝ<sup>n</sup>
 
 A is the mxn matrix whose jth column is the vector T(e<sub>j</sub>), where e<sub>j</sub> is the jth column of the identity matrix in ℝ<sup>n</sup>:
 
-A = [T(e<sub>1</sub> ... T(e<sub>n</sub>)]
+A = [T(e<sub>1</sub>) ... T(e<sub>n</sub>)]
 
 The matrix A above is called the **standard matrix for the linear transformation** T.
 
