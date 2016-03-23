@@ -436,3 +436,19 @@ The inverse of A can be found by:
 adj(A) = det(A) A<sup>-1</sup>
 
 A<sup>-1</sup> = (1 / det(A)) adj(A)
+
+## 4.1 Vector Spaces and Subspaces
+
+A **vector space** is a non-empty set V of objects, called *vectors*, on which are defined two operations, called *addition* and *multiplication by scalars* (real numbers), subject to the ten axioms listed below. The axioms must hold for all vectors **u**, **v**, and **w** in V and for all scalars *c* and *d*.
+
+1. The sum of **u** and **v** is in V. (Closed under vector addition.)
+2. **u** + **v** = **v** + **u**.
+3. (**u** + **v**) + **w** = **u** + (**v** + **w**).
+4. There is a zero vector **0** in V such that **u** + **0** = **u**.
+5. For each **u** in V, there is a vector -**u** in V such that **u** + (-**u**) = **0**.
+6. The scalar multiple of **u** by *c*, denoted by c**u** is in V. (Closed under scalar multiplication.)
+7. c(**u** + **v**) = c**u** + c**v**.
+8. (c + d)**u** = c**u** + d**u**.
+9. c(d**u**) = (cd)**u**.
+10. 1**u** = **u**.
+
