@@ -1,0 +1,262 @@
+---
+title: "Proof: A 2x2 Matrix is a Vector Space"
+author: "Bill Cruise (UNCC Student Id: 800932170)"
+date: "Wednesday, March 23, 2016"
+output: pdf_document
+---
+
+$\mathbb{M}_{2x2} (\mathbb{R}) = \{ \mathbb{M}_{2x2} : a_{ij} \in \mathbb{R} \}$ with
+
+$A + B = \left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+b_{11} & b_{12} \\
+b_{21} & b_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right]$, and 
+
+$cA = c\left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+ca_{11} & ca_{12} \\
+ca_{21} & ca_{22}
+\end{array}\right]$
+
+Closure:
+===
+
+1. Let $A, B \in \mathbb{M}_{2x2} (\mathbb{R})$. 
+
+$A + B = C = \left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right]$. 
+
+$a_{11}, b_{11}, a_{12}, b_{12}, a_{21}, b_{21}, a_{22}, b_{22} \in \mathbb{R} \implies a_{11} + b_{11}, a_{12} + b_{12}, a_{21} + b_{21}, a_{22} + b_{22} \in \mathbb{R}$, 
+
+and $C \in \mathbb{M}_{2x2}$, so $A + B \in \mathbb{M}_{2x2} (\mathbb{R})$
+
+That is, $\mathbb{M}_{2x2} (\mathbb{R})$ is closed under vector addition.
+
+2. Let $A \in \mathbb{M}_{2x2} (\mathbb{R}), c \in \mathbb{R}$.
+
+$cA = \left[\begin{array}
+{rrr}
+ca_{11} & ca_{12} \\
+ca_{21} & ca_{22}
+\end{array}\right]$.
+
+$c, a_{11}, a_{12}, a_{21}, a_{22} \in \mathbb{R} \implies ca_{11}, ca_{12}, ca_{21}, ca_{22} \in \mathbb{R}$, so $cA \in \mathbb{M}_{2x2} (\mathbb{R})$.
+
+That is, $\mathbb{M}_{2x2} (\mathbb{R})$ is closed under scalar multiplication.
+
+Addition:
+===
+
+3. Commutativity - $A + B = B + A$ for every $A, B \in \mathbb{M}_{2x2} (\mathbb{R})$
+
+$A + B = \left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+b_{11} + a_{11} & b_{12} + a_{12} \\
+b_{21} + a_{21} & b_{22} + a_{22}
+\end{array}\right]$ by commutativity of addition in $\mathbb{R}$.
+
+$\left[\begin{array}
+{rrr}
+b_{11} + a_{11} & b_{12} + a_{12} \\
+b_{21} + a_{21} & b_{22} + a_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+b_{11} & b_{12} \\
+b_{21} & b_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] = B + A$.
+
+4. Associativity - $(A + B) + C = A + (B + C)$ for every $A, B, C \in \mathbb{M}_{2x2} (\mathbb{R})$.
+
+$(A + B) + C = \left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+c_{11} & c_{12} \\
+c_{21} & c_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+(a_{11} + b_{11}) + c_{11} & (a_{12} + b_{12}) + c _{12} \\
+(a_{21} + b_{21}) + c_{21} & (a_{22} + b_{22}) + c_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} + (b_{11} + c_{11}) & a_{12} + (b_{12} + c _{12}) \\
+a_{21} + (b_{21} + c_{21}) & a_{22} + (b_{22} + c_{22})
+\end{array}\right]$ by associativity of addition in $\mathbb{R}$.
+
+$\left[\begin{array}
+{rrr}
+a_{11} + (b_{11} + c_{11}) & a_{12} + (b_{12} + c _{12}) \\
+a_{21} + (b_{21} + c_{21}) & a_{22} + (b_{22} + c_{22})
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+b_{11} + c_{11} & b_{12} + c_{12} \\
+b_{21} + c_{21} & b_{22} + c_{22}
+\end{array}\right] = A + (B + C)$.
+
+5. Exisistence of an additive identity ($\vec{0}$), i.e., there must exist a $\vec{0}$ such that $A + \vec{0} = \vec{0} + A = A$ for every $A \in \mathbb{M}_{2x2} (\mathbb{R})$.
+
+$A + \left[\begin{array}
+{rrr}
+c_{11} & c_{12} \\
+c_{21} & c_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} + c_{11} & a_{12} + c_{12} \\
+a_{21} + c_{21} & a_{22} + c_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] \implies \left[\begin{array}
+{rrr}
+c_{11} & c_{12} \\
+c_{21} & c_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+0 & 0 \\
+0 & 0
+\end{array}\right]$, i.e., $\vec{0} = \left[\begin{array}
+{rrr}
+0 & 0 \\
+0 & 0
+\end{array}\right]$ is the additive identity of $\mathbb{M}_{2x2} (\mathbb{R})$.
+
+6. Existence of additive inverses, i.e., for every $A \in \mathbb{M}_{2x2} (\mathbb{R})$ there must exist some $B$ such that $A + B = B + A = \vec{0}$.
+
+$A + B = \left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+0 & 0 \\
+0 & 0
+\end{array}\right] \implies b_{11} = -a_{11}, b_{12} = -a_{12}, b_{21} = -a_{21}, and b_{22} = -a_{22}$, so $B = \left[\begin{array}
+{rrr}
+-a_{11} & -a_{12} \\
+-a_{21} & -a_{22}
+\end{array}\right]$.
+
+Multiplication:
+===
+
+7. Distribution of a scalar onto the sum of two vectors, i.e., for every $c \in \mathbb{R}$ and every $A, B \in \mathbb{M}_{2x2} (\mathbb{R})$, $c(A + B) = cA + cB$.
+
+$c(A + B) = c\left[\begin{array}
+{rrr}
+a_{11} + b_{11} & a_{12} + b_{12} \\
+a_{21} + b_{21} & a_{22} + b_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+c(a_{11} + b_{11}) & c(a_{12} + b_{12}) \\
+c(a_{21} + b_{21}) & c(a_{22} + b_{22})
+\end{array}\right] = \left[\begin{array}
+{rrr}
+ca_{11} + cb_{11} & ca_{12} + cb_{12} \\
+ca_{21} + cb_{21} & ca_{22} + cb_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+ca_{11} & ca_{12} \\
+ca_{21} & ca_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+cb_{11} & cb_{12} \\
+cb_{21} & cb_{22}
+\end{array}\right] = c\left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] + c\left[\begin{array}
+{rrr}
+b_{11} & b_{12} \\
+b_{21} & b_{22}
+\end{array}\right] = cA + cB$.
+
+8. Distribution of a vector onto the sum of two scalars, i.e., for every $c, d \in \mathbb{R}$ and every $A \in \mathbb{M}_{2x2} (\mathbb{R})$, $(c + d)A = cA + dA$.
+
+$(c + d)A = \left[\begin{array}
+{rrr}
+(c + d)a_{11} & (c + d)a_{12} \\
+(c + d)a_{21} & (c + d)a_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+ca_{11} + da_{11} & ca_{12} + da_{12} \\
+ca_{21} + da_{21} & ca_{22} + da_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+ca_{11} & ca_{12} \\
+ca_{21} & ca_{22}
+\end{array}\right] + \left[\begin{array}
+{rrr}
+da_{11} & da_{12} \\
+da_{21} & da_{22}
+\end{array}\right] = cA + dA$.
+
+9. Scalar multiplication of a scalar multiplication, i.e., for every $c, d \in \mathbb{R}$ and $A \in \mathbb{M}_{2x2} (\mathbb{R})$, $c(dA) = (cd)A$.
+
+$c(dA) = c\left[\begin{array}
+{rrr}
+da_{11} & da_{12} \\
+da_{21} & da_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+cda_{11} & cda_{12} \\
+cda_{21} & cda_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+(cd)a_{11} & (cd)a_{12} \\
+(cd)a_{21} & (cd)a_{22}
+\end{array}\right] = (cd)\left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] = (cd)A$.
+
+10. Scalar multiplication with the multiplicative identity of the field ($\mathbb{R}$), i.e., for every $A \in \mathbb{M}_{2x2} (\mathbb{R}), 1A = A$.
+
+$1A = 1\left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+1a_{11} & 1a_{12} \\
+1a_{21} & 1a_{22}
+\end{array}\right] = \left[\begin{array}
+{rrr}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}\right] = A$.
+
+
+
