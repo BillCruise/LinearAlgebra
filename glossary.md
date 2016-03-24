@@ -188,7 +188,7 @@ T(x) = Ax for all x in ℝ<sup>n</sup>
 
 A is the mxn matrix whose jth column is the vector T(e<sub>j</sub>), where e<sub>j</sub> is the jth column of the identity matrix in ℝ<sup>n</sup>:
 
-A = [T(e<sub>1</sub> ... T(e<sub>n</sub>)]
+A = [T(e<sub>1</sub>) ... T(e<sub>n</sub>)]
 
 The matrix A above is called the **standard matrix for the linear transformation** T.
 
@@ -318,6 +318,14 @@ A linear transformation T:ℝ<sup>n</sup> |-> ℝ<sup>n</sup> is said to be **in
 
 If such an S exists, it is unique and must be a linear transformation. We call S the **inverse** of T and write it as T<sup>-1</sup>.
 
+## 2.4 Partitioned Matrices
+
+A **partitioned matrix** (or **block matrix**) is a matrix whose entries are themselves matrices of appropriate sizes.
+
+If matrices A and B are the same size and are partitioned in exactly the same way, then addition and scalar multiplication can be performed block by block. Matrix multiplication can be performed by the usual row-column rule if the column partition of A matches the row partition of B. If this is the case, we say that A and B are **conformable** for **block multiplication**.
+
+A **block diagonal matrix** is a partioned matrix with zero blocks of the main diagonal (of blocks). Such a matrix is invertible if and only if each block on the diagonal is invertible.
+
 ## 2.5 Matrix Factorizations
 
 A **factorization** of matrix A is an equation that expresses A as a product of two or more matrices.
@@ -428,3 +436,19 @@ The inverse of A can be found by:
 adj(A) = det(A) A<sup>-1</sup>
 
 A<sup>-1</sup> = (1 / det(A)) adj(A)
+
+## 4.1 Vector Spaces and Subspaces
+
+A **vector space** is a non-empty set V of objects, called *vectors*, on which are defined two operations, called *addition* and *multiplication by scalars* (real numbers), subject to the ten axioms listed below. The axioms must hold for all vectors **u**, **v**, and **w** in V and for all scalars *c* and *d*.
+
+1. The sum of **u** and **v** is in V. (Closed under vector addition.)
+2. **u** + **v** = **v** + **u**.
+3. (**u** + **v**) + **w** = **u** + (**v** + **w**).
+4. There is a zero vector **0** in V such that **u** + **0** = **u**.
+5. For each **u** in V, there is a vector -**u** in V such that **u** + (-**u**) = **0**.
+6. The scalar multiple of **u** by *c*, denoted by c**u** is in V. (Closed under scalar multiplication.)
+7. c(**u** + **v**) = c**u** + c**v**.
+8. (c + d)**u** = c**u** + d**u**.
+9. c(d**u**) = (cd)**u**.
+10. 1**u** = **u**.
+
