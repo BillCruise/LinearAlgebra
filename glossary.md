@@ -452,3 +452,16 @@ A **vector space** is a non-empty set V of objects, called *vectors*, on which a
 9. c(d**u**) = (cd)**u**.
 10. 1**u** = **u**.
 
+For each **u** in V and scalar in *c*,
+
+1. 0**u** = **0**
+2. c**0** = **0**
+3. -**u** = (-1)**u**
+
+A **subspace** of a vector space V is a subset H of V that has three properties:
+
+1. The zero vector of V is in H.
+2. H is closed under vector addition. That is, for each **u** and **v* in H, the sum **u** + **v** is in H.
+3. H is closed under multiplication by scalars. That is, for each **u** in H and each scalar *c*, the vector c**u** is in H.
+
+If **v**<sub>1</sub>,...,**v**<sub>p</sub> are in a vector space V, then Span { **v**<sub>1</sub>,...,**v**<sub>p</sub> } is a subspace of V.
