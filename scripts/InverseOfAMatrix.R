@@ -1,5 +1,5 @@
 # Linear Algebra and its applications 5th edition
-# Section 2.1 - Inverse of a Matrix
+# Section 2.2 - Inverse of a Matrix
 
 # An nxn matrix is said to be INVERTIBLE if there is an nxn matrix C such that
 # CA = I and AC = I
