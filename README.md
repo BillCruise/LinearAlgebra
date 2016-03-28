@@ -20,7 +20,7 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 
 ### Chapter 2: Matrix Algebra
 
-1. Matrix Operations
+1. [Matrix Operations](scripts/MatrixOperations.R)
 2. [The Inverse of a Matrix](scripts/InverseOfAMatrix.R)
 3. Characterizations of Invertible Matrices
 4. Partitioned Matrices
