@@ -465,3 +465,9 @@ A **subspace** of a vector space V is a subset H of V that has three properties:
 3. H is closed under multiplication by scalars. That is, for each **u** in H and each scalar *c*, the vector c**u** is in H.
 
 If **v**<sub>1</sub>,...,**v**<sub>p</sub> are in a vector space V, then Span { **v**<sub>1</sub>,...,**v**<sub>p</sub> } is a subspace of V.
+
+## 4.2 Null Spaces, Columns Spaces, and Linear Transformations
+
+## 4.3 Linearly Independent Sets; Bases
+
+## 4.4 Coordinate Systems
