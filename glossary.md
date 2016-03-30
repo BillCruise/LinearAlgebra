@@ -1,7 +1,7 @@
 # Linear Algebra and its applications 5th edition
 by David C. Lay, Steven R. Lay, and Judi McDonald
 
-## 1.1 Systems of linear equations
+## 1.1 - Systems of linear equations
 
 A **linear equation** in the variables x<sub>1</sub>,...,x<sub>n</sub> is an equation that can be written in the form
 
@@ -35,7 +35,7 @@ Three basic **row operations** are used to simplify a linear system:
 
 Two matrices are called **row equivalent** if there is a sequence of elementary row operations that transforms one matrix into the other.
 
-## 1.2 Row Reduction and Echelon Forms
+## 1.2 - Row Reduction and Echelon Forms
 
 A **nonzero** row or column in a matrix is one that contains at least one nonzero entry.
 
@@ -62,7 +62,7 @@ The sequence of row reduction steps used to get to *row echelon form* are called
 
 The variables (x<sub>1</sub>, x<sub>2</sub>,...) corresponding to pivot columns in the augmented matrix are called **basic variables**.  The other variables corresponding to columns with no pivot are called **free variables**.
 
-## 1.3 Vector Equations
+## 1.3 - Vector Equations
 
 A matrix with only one column is called a **column vector**, or simply a **vector**.  Two vectors in ℝ<sup>n</sup> are **equal** if and only if their corresponding entries are equal. Vectors in ℝ<sup>2</sup> are *ordered pairs* of real numbers.
 
@@ -99,8 +99,7 @@ is called a **linear combination** of vectors v<sub>1</sub>,...,v<sub>p</sub> wi
 
 The set of all possible linear combinations of a set of vectors is called the **span** of the set.
 
-
-## 1.4 The Matrix Equation
+## 1.4 - The Matrix Equation
 
 If A is an mxn matrix, with columns a<sub>1</sub>,...,a<sub>n</sub>, and if **x** is in ℝ<sup>n</sup>, then the **product** of A and **x**, denoted by A**x** is the linear combination of the columns of A using the corresponding entries in **x** as weights (a<sub>1</sub>,...,a<sub>n</sub> above are vectors).
 
@@ -127,9 +126,11 @@ Let A be an mxn matrix. Then the following statements are logically equivalent. 
 3. The columns of A span ℝ<sup>m</sup>.
 4. A has a pivot position in every row.
 
-## 1.5 Solution Sets of Linear Systems
+## 1.5 - Solution Sets of Linear Systems
 
 A system of linear equations is said to be **homogeneous** if it can be written in the form Ax = 0, where A is an mxn matrix, and 0 is the zero vector in Rm. A homogeneous system always has at least one solution, namely, x = 0 (the zero vector in Rn). This zero solution is usually called the **trivial solution**. For a given equation Ax = 0, the important question is whether there exists a **nontrivial** solution.
+
+## 1.6 - Applications of Linear Systems
 
 ## 1.7 - Linear Independence
 
@@ -179,8 +180,7 @@ T(cu + dv) = cT(u) + dT(v)
 for all vectors u, v in the domain of T, and all scalars c, d.
 This is just a combination of (1) and (2) above.
 
-
-## 1.9 The Matrix of a Linear Transformation
+## 1.9 - The Matrix of a Linear Transformation
 
 Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation. Then there exists a unique matrix A such that:
 
@@ -203,7 +203,9 @@ Let T : ℝ<sup>n</sup> -> ℝ<sup>m</sup>  be a linear transformation, and let 
 1. T maps ℝ<sup>n</sup> onto ℝ<sup>m</sup>  if and only if the columns of A span ℝ<sup>m</sup> ;
 2. T is one-to-one if and only if the columns of A are linearly independent.
 
-## 2.1 Matrix Operations
+## 1.10 - Linear Models in Business, Science, and Engineering
+
+## 2.1 - Matrix Operations
 
 The **diagonal entries** of an mxn matrix A = [a<sub>ij</sub>] are a<sub>11</sub>, a<sub>22</sub>, a<sub>33</sub>,..., and they form the **main diagonal** of A. A **diagonal matrix** is a square nxn matrix whose non-diagonal entries are zero.  An mxn matrix whose entries are all zero is a **zero matrix**.
 
@@ -257,7 +259,7 @@ Let A and B denote matrices whose sizes are appropriate for the following subs a
 
 The transpose of a product of matrices equals the product of their transposes in reverse order.
 
-## 2.2 The Inverse of a Matrix
+## 2.2 - The Inverse of a Matrix
 
 An nxn matrix A is **invertible** if there is an nxn matrix C such that AC = CA = I, where I = I<sub>n</sub>, the nxn identity matrix. In this case, C is the **inverse** of A. The inverse of a matrix is unique and is denoted by A<sup>-1</sup>, so that
 
@@ -289,8 +291,7 @@ Each elementary matrix E is invertible. The inverse of E is the elementary matri
 
 The nxn matrix A is invertible if and only if A is row equivalent to I<sub>n</sub>, and in this case, andy sequenc of elementary row operations that reduces A to I<sub>n</sub> also tranforms I<sub>n</sub> into A<sub>-1</sub>.
 
-
-## 2.3 Characterizations of Invertible Matrices
+## 2.3 - Characterizations of Invertible Matrices
 
 ### The Invertible Matrix Theorem
 
@@ -318,7 +319,7 @@ A linear transformation T:ℝ<sup>n</sup> |-> ℝ<sup>n</sup> is said to be **in
 
 If such an S exists, it is unique and must be a linear transformation. We call S the **inverse** of T and write it as T<sup>-1</sup>.
 
-## 2.4 Partitioned Matrices
+## 2.4 - Partitioned Matrices
 
 A **partitioned matrix** (or **block matrix**) is a matrix whose entries are themselves matrices of appropriate sizes.
 
@@ -326,7 +327,7 @@ If matrices A and B are the same size and are partitioned in exactly the same wa
 
 A **block diagonal matrix** is a partioned matrix with zero blocks of the main diagonal (of blocks). Such a matrix is invertible if and only if each block on the diagonal is invertible.
 
-## 2.5 Matrix Factorizations
+## 2.5 - Matrix Factorizations
 
 A **factorization** of matrix A is an equation that expresses A as a product of two or more matrices.
 
@@ -361,7 +362,13 @@ A **basis** for a subspace H of ℝ<sup>n</sup> is a linearly independent set in
 
 The pivot columns of a matrix A form a basis for the column space of A. (*Warning*: be careful to use the pivot columns of A itself for the basis of Col A. The columns of an echelon form B are often not in the columns space of A.)
 
-## 2.9 Dimension and Rank
+## 2.6 - The Leontief Input-Output Mode
+
+## 2.7 - Applications to Computer Graphics
+
+## 2.8 - Subspaces of ℝ<sup>n</sup>
+
+## 2.9 - Dimension and Rank
 
 Suppose the set B = {b<sub>1</sub>,...,b<sub>p</sub>} is a basis for a subspace H. For each x in H, the **coordinates of x relative to the basis B** are the weights c<sub>1</sub>,...,c<sub>p</sub> such that x = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>p</sub>b<sub>p</sub>, and the vector in ℝ<sup>p</sup> [x]<sub>B</sub> is called the **coordinate vector of x (relative to B)** or the **B-coordinate vector of x**.
 
@@ -384,7 +391,7 @@ Let A be an nxn matrix. Then the following statements are each equivalent to the
 5. Nul A = {0}
 6. dim Nul A = 0
 
-## 3.1 Introdction to Determinants
+## 3.1 - Introdction to Determinants
 
 The number C<sub>ij</sub> = (-1)<sup>i+j</sup> det A<sub>ij</sub>, is called the **(i,j)-cofactor** of A, where A<sub>ij</sub> is the submatrix formed by deleting the ith row and jth column of A.
 
@@ -399,7 +406,7 @@ det A = a<sub>1j</sub>C<sub>1j</sub> + a<sub>2j</sub>C<sub>2j</sub> + ... + a<su
 
 If A is a triangular matrix, then det A is the product of the entries on the main diagonal of A.
 
-## 3.2 Properties of Determinants
+## 3.2 - Properties of Determinants
 
 ### Row Operations
 
@@ -415,7 +422,7 @@ If A is an nxn matrix, then det A<sup>T</sup> = det A.
 
 If A and B are nxn matrices, then det AB = (det A)(det B).
 
-## 3.3 Cramer's Rule
+## 3.3 - Cramer's Rule
 
 When an nxn matrix A has a non-zero determinant, the solutions to Ax = b can be found by **Cramer's rule**. Individual values for the unknown vector **x** can are given by:
 
@@ -437,7 +444,7 @@ adj(A) = det(A) A<sup>-1</sup>
 
 A<sup>-1</sup> = (1 / det(A)) adj(A)
 
-## 4.1 Vector Spaces and Subspaces
+## 4.1 - Vector Spaces and Subspaces
 
 A **vector space** is a non-empty set V of objects, called *vectors*, on which are defined two operations, called *addition* and *multiplication by scalars* (real numbers), subject to the ten axioms listed below. The axioms must hold for all vectors **u**, **v**, and **w** in V and for all scalars *c* and *d*.
 
@@ -466,8 +473,19 @@ A **subspace** of a vector space V is a subset H of V that has three properties:
 
 If **v**<sub>1</sub>,...,**v**<sub>p</sub> are in a vector space V, then Span { **v**<sub>1</sub>,...,**v**<sub>p</sub> } is a subspace of V.
 
-## 4.2 Null Spaces, Columns Spaces, and Linear Transformations
+## 4.2 - Null Spaces, Columns Spaces, and Linear Transformations
 
-## 4.3 Linearly Independent Sets; Bases
+## 4.3 - Linearly Independent Sets; Bases
 
-## 4.4 Coordinate Systems
+## 4.4 - Coordinate Systems
+
+## 4.5 - The Dimension of a Vector Space
+
+## 4.6 - Rank
+
+## 4.7 - Change of Basis
+
+## 4.8 - Applications to Difference Equations
+
+## 4.9 - Application to Markov Chains
+
