@@ -475,6 +475,10 @@ If **v**<sub>1</sub>,...,**v**<sub>p</sub> are in a vector space V, then Span { 
 
 ## 4.2 - Null Spaces, Columns Spaces, and Linear Transformations
 
+The **null space** of an mxn matrix A, written as Nul A, is the set of all solutions of the homogeneous equation Ax = 0. In set notation, Nul A = { x : x is in ℝ<sup>n</sup> and Ax = 0 }
+
+The null space of an mxn matrix A is a subspace of ℝ<sup>n</sup>. Equivalently, the set of all solutions to a system Ax = 0 of m homogeneous linear equestions in n unknowns is a subspace of ℝ<sup>n</sup>.
+
 ## 4.3 - Linearly Independent Sets; Bases
 
 ## 4.4 - Coordinate Systems
