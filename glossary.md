@@ -478,6 +478,18 @@ If **v**<sub>1</sub>,...,**v**<sub>p</sub> are in a vector space V, then Span { 
 The **null space** of an mxn matrix A, written as Nul A, is the set of all solutions of the homogeneous equation Ax = 0. In set notation, Nul A = { x : x is in ℝ<sup>n</sup> and Ax = 0 }
 
 The null space of an mxn matrix A is a subspace of ℝ<sup>n</sup>. Equivalently, the set of all solutions to a system Ax = 0 of m homogeneous linear equestions in n unknowns is a subspace of ℝ<sup>n</sup>.
+u
+The **column space** of an mxn matrix A, written as Col A, is the set of all linear combinations of the columns of A. If A = [a<sub>1</sub> ... a<sub>n</sub>], then Col A = Span {a<sub>1</sub> ... a<sub>n</sub>}.
+
+The column space of an mxn matrix A is a subspace of ℝ<sup>m</sup>.
+
+The column space of an mxn matrix A is all of ℝ<sup>m</sup> if and only if the equation Ax = b has a solution for each b in ℝ<sup>m</sup>.
+
+A **linear transformation** T from a vector space V into a vector space W is a rule that assigns to each vector X in V a unique vector T(x) in W, such that
+
+1. T(u + v) = T(u) + T(v)
+2. T(cu) = cT(u)
+
 
 ## 4.3 - Linearly Independent Sets; Bases
 
