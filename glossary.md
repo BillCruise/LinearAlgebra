@@ -493,6 +493,23 @@ A **linear transformation** T from a vector space V into a vector space W is a r
 
 ## 4.3 - Linearly Independent Sets; Bases
 
+An indexed set {v<sub>1</sub>,...,v<sub>p</sub>} of two or more vectors, with v<sub>1</sub> != **0** is linearly dependent if an only if some v<sub>j</sub> (with j > 1) is a linear combination of the preceding vectors, v<sub>1</sub>,...v<sub>j-1</sub>.
+
+Let H be a subspace of a vector space V. An indexed set of vectors B = {b<sub>1</sub>,...,b<sub>p</sub>} in V is a *de*basis** for H if
+
+1. B is a linearly independent set, and
+2. the subspace spanned by B coincides with H; that is, H = Span {b<sub>1</sub>,...,b<sub>p</sub>}
+
+### The Spanning Set Theorem
+
+Let S = {v<sub>1</sub>,...,v<sub>p</sub>} be a set in V, and let H = Span {v<sub>1</sub>,...,v<sub>p</sub>}.
+
+1. If one of the vectors in S -say, v<sub>k</sub>- is a linear combination of the remaining vectors in S, then the set formed from S by removing v<sub>k</sub> still spans H.
+2. If H != {**0**}, some subset of S is a basis for H.
+
+The pivot columns of a matrix A form a basis for Col A.
+
+
 ## 4.4 - Coordinate Systems
 
 ## 4.5 - The Dimension of a Vector Space
