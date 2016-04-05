@@ -495,7 +495,7 @@ A **linear transformation** T from a vector space V into a vector space W is a r
 
 An indexed set {v<sub>1</sub>,...,v<sub>p</sub>} of two or more vectors, with v<sub>1</sub> != **0** is linearly dependent if an only if some v<sub>j</sub> (with j > 1) is a linear combination of the preceding vectors, v<sub>1</sub>,...v<sub>j-1</sub>.
 
-Let H be a subspace of a vector space V. An indexed set of vectors B = {b<sub>1</sub>,...,b<sub>p</sub>} in V is a *de*basis** for H if
+Let H be a subspace of a vector space V. An indexed set of vectors B = {b<sub>1</sub>,...,b<sub>p</sub>} in V is a **basis** for H if
 
 1. B is a linearly independent set, and
 2. the subspace spanned by B coincides with H; that is, H = Span {b<sub>1</sub>,...,b<sub>p</sub>}
@@ -511,6 +511,16 @@ The pivot columns of a matrix A form a basis for Col A.
 
 
 ## 4.4 - Coordinate Systems
+
+### The Unique Representation Theorem
+
+Let B = {b<sub>1</sub>,...,b<sub>n</sub>} be a basis for a vector space V. Then for each **x** in V, there existrs a unique set of scalars c<sub>1</sub>,...,c<sub>n</sub> such that **x** = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>n</sub>b<sub>n</sub>
+
+Suppose B = {b<sub>1</sub>,...,b<sub>n</sub>} is a basis for V and **x** is in V. The **coordinates of x relative to the basis B** (or the **B-coordinates of x**) are the weights c<sub>1</sub>,...,c<sub>n</sub> such that **x** = c<sub>1</sub>b<sub>1</sub> + ... + c<sub>n</sub>b<sub>n</sub>.
+
+Let B = {b<sub>1</sub>,...,b<sub>n</sub>} be a basis for a vector space V. Then the coordinate mapping **x** -> [**x**]<sub>B</sub> is a one-to-one linear transformation from V onto ℝ<sup>n</sup>.
+
+An **isomorphism** is a one-to-one linear mapping from one vector space into another.
 
 ## 4.5 - The Dimension of a Vector Space
 
