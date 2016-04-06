@@ -524,6 +524,20 @@ An **isomorphism** is a one-to-one linear mapping from one vector space into ano
 
 ## 4.5 - The Dimension of a Vector Space
 
+If a vector space V has a basis B = {b<sub>1</sub>,...,b<sub>n</sub>}, then any set in V containing more than n vectors must be linearly independent.
+
+If a vector space V has a basis of n vectors, then every basis of V must consist of exactly n vectors.
+
+If V is spanned by a finite set, then V is said to be **finite-dimensional**, and the **dimension** of V, written as dim V, is the number of vectors in a basis for V. The dimension of the zero vector space {**0**} is defined to be zero. If V is not spanned by a finite set, then V is said to be **infinite-dimensional**.
+
+Let H be a subspace of a finite-dimensional vector space V. Any linearly independent set in H can be expanded, if necessary, to a basis for H. Also, H is finite dimensional and dim H <= dim V.
+
+#### The Basis Theorem
+
+Let V be a p-dimensional vector space, p >= 1. Any linearly independent set of exactly p elements in V is automatically a basis for V. Any set of exactly p elements that spans V is automatically a basis for V.
+
+The dimension of Nul A is the number of free variables in the equation Ax = 0, and the dimension of Col A is the number of pivot columns in A.
+
 ## 4.6 - Rank
 
 ## 4.7 - Change of Basis
