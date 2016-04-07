@@ -540,6 +540,27 @@ The dimension of Nul A is the number of free variables in the equation Ax = 0, a
 
 ## 4.6 - Rank
 
+The set of all linear combinations of the row vectors of a matrix A is called the **row space** of A, and is denoted by Row A.
+
+If two matrices A and B are row equivalent, then their row spaces are the same. If B is in echelon form, the nonzero rows of B form a basis for the row space of A as well as for that of B.
+
+The **rank** of A is the dimension of the column space of A.
+
+#### Rank Theorem
+
+The dimensions of the column space and the row space of an mxn matrix A are equal. This common dimension, the rank of a, also equals the number of pivot positions in A and satisfies the equation rank A + dim Nul A = n.
+
+#### The Invertible Matrix Theorem (continued)
+
+Let A be an nxn matrix. Then the followind statements are each equivalent to the statement that A is an invertible matrix.
+
+1. The columns of A forma basis of ℝ<sup>n</sup>.
+2. Col A = ℝ<sup>n</sup>
+3. dim Col A = n
+4. rank A = n
+5. Nul A = {**0**}
+6. dim Nul A = 0
+
 ## 4.7 - Change of Basis
 
 ## 4.8 - Applications to Difference Equations
