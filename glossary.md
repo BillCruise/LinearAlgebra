@@ -563,6 +563,16 @@ Let A be an nxn matrix. Then the followind statements are each equivalent to the
 
 ## 4.7 - Change of Basis
 
+Let B = {b<sub>1</sub>,...,b<sub>n</sub>} and C = {c<sub>1</sub>,...,c<sub>n</sub>} be bases of a vector space V. Then there is a unique nxn matrix P<sub>C<-B</sub> such that
+
+[x]<sub>C</sub> = P<sub>C<-B</sub>[x]<sub>B</sub>
+
+The columns of P<sub>C<-B</sub> are the C-coordinate vectors of the vectors in the basis B.  That is,
+
+P<sub>C<-B</sub> = [ [b<sub>1</sub>]<sub>C</sub> [b<sub>2</sub>]<sub>C</sub> ... [b<sub>n</sub>]<sub>C</sub> ]
+
+The matrix P<sub>C<-B</sub> in the above theorem is called the **change-of-coordinates matrix from B to C**. Multiplication by P<sub>C<-B</sub> converts B-coordinates into C-coordinates.
+
 ## 4.8 - Applications to Difference Equations
 
 ## 4.9 - Application to Markov Chains
