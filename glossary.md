@@ -577,3 +577,20 @@ The matrix P<sub>C<-B</sub> in the above theorem is called the **change-of-coord
 
 ## 4.9 - Application to Markov Chains
 
+## 5.1 - Eigenvectors and Eigenvalues
+
+## 5.2 - The Characteristic Equation
+
+## 5.3 - Diagonalization
+
+## 5.4 - Eigenvectors and Linear Transformations
+
+## 5.5 - Complex Eigenvalues
+
+## 5.6 - Discrete Dynamical Systems
+
+## 5.7 - Applications to Differential Equations
+
+## 5.8 - Iterative Estimates for Eigenvalues
+
+
