@@ -579,6 +579,16 @@ The matrix P<sub>C<-B</sub> in the above theorem is called the **change-of-coord
 
 ## 5.1 - Eigenvectors and Eigenvalues
 
+An **eigenvector** of an nxn matrix A is a nonzero vector **x** such that A**x** = λ**x** for some scalar λ. A scalar λ is called an **eigenvalue** of A if there is a nontrivial solution **x** of A**x** = λ**x**; such an **x** is called an *eigenvector corresponding to λ.
+
+An eigenvector must be nonzero by definition, but an eigenvalue may be zero.
+
+λ is an eigenvalue of an nxn matrix A if and only if the equation (A - λI)**x** = **0** has a nontrivial solution. The set of all solutions to (A - λI)**x** = **0** is the null space of the matrix A - λI. This set is a subspace of ℝ<sup>n</sup> and is called the **eigenspace** of A corresponding to λ.
+
+The eigenvalues of a triangular matrix are the entries on its main diagonal.
+
+If **v**<sub>1</sub>,...,**v**<sub>r</sub> are eigenvectors that correspond to distinct eigenvalues λ<sub>1</sub>,...,λ<sub>r</sub> of an nxn matrix A, then the set {**v**<sub>1</sub>,...,**v**<sub>r</sub>} is linearly independent.
+
 ## 5.2 - The Characteristic Equation
 
 ## 5.3 - Diagonalization
