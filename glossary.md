@@ -624,6 +624,16 @@ A square matrix A is said to be **diagonalizable** if A is similar to a diagonal
 
 An nxn matrix A is diagonalizable if and only if a has n linearly independent eigenvectors.  In fact, A = PDP<sup>-1</sup>, D a diagonal matrix, if and only if the columns of P are n linearly independent eigenvectors of A. In this case, the diagonal entries of D are eigenvalues of A that correspond, respectively, to the eigenvectors in P.
 
+An nxn matrix a is diagonalizable if and only if there are enough eigenvectors to form a basis of ℝ<sup>n</sup>. We call such a basis an **eigenvector basis** of ℝ<sup>n</sup>.
+
+An nxn matrix with n distinct eigenvalues is diagonalizable (but is is not *necessary* for an nxn matrix to have n distinct eigenvalues in order to be diagonalizable).
+
+Let A be an nxn matrix whose distinct eigenvalues are λ<sub>1</sub>,...,λ<sub>p</sub>,
+
+1. For 1 <= k <= p, the dimension of the eigenspace for λ<sub>k</sub> is less than or equal to the multiplicity of the eigenvalue of λ<sub>k</sub>.
+2. The matrix A is diagonalizable if and only if the sum of the dimensions of the eigenspaces equals n, and this happens if an only if (i) the characteristic polynomial factors completely into linear factors and (ii) the dimension of the eigenspace fore each λ<sub>k</sub> equals the multiplicity of λ<sub>k</sub>.
+3. If A is diagonalizable and B<sub>k</sub> is a basis for the eigenspace corresponding to λ<sub>k</sub> for each k, then the total collection of bectors in the sets B<sub>1</sub>,...,B<sub>p</sup> forms an eigenvector basis for ℝ<sup>n</sup>.
+
 ## 5.4 - Eigenvectors and Linear Transformations
 
 ## 5.5 - Complex Eigenvalues
