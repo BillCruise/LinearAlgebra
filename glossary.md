@@ -591,7 +591,34 @@ If **v**<sub>1</sub>,...,**v**<sub>r</sub> are eigenvectors that correspond to d
 
 ## 5.2 - The Characteristic Equation
 
+#### The Invertible Matrix Theorem (continued)
+
+Let A be an nxn matrix. Then A is invertible if and only if:
+
+1. The number 0 is not an eigenvalue of A.
+2. The determinant of A is not zero.
+
+#### Properties of Determinants
+
+Let A and B be nxn matrices.
+
+1. A is invertible if an only if det A != 0.
+2. det AB = (det A)(det B).
+3. det A<sup>T</sup> = det A.
+4. If A is triangular, then det A is the product of the entries on the main diagonal of A.
+5. A row replacement operation on row A does not change the determinant. A row interchange changes the sign of the determinant. a row scaling also scales the determinant by the same scalar factor.
+
+A scalar λ is an eigenvalue of an nxn matrix a if and only if λ satisfies the **characteristic equation** det(A - λI) = 0.
+
+The **multiplicity** of an eigenvalue λ is its multiplicity as a root of the characteristic equation.
+
+If A and B are nxn matrices, then A is **similar** to B if there is an invertible matrix P such that P<sup>-1</sup>AP = B, or equivalently, A = PBP<sup>-1</sup>.
+
+If nxn matrices A and B are similar, then they have the same characteristic equation polynomial and hence the same eigenvalues (with the same multiplicities).
+
 ## 5.3 - Diagonalization
+
+
 
 ## 5.4 - Eigenvectors and Linear Transformations
 
