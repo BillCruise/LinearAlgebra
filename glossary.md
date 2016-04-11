@@ -618,7 +618,11 @@ If nxn matrices A and B are similar, then they have the same characteristic equa
 
 ## 5.3 - Diagonalization
 
+A square matrix A is said to be **diagonalizable** if A is similar to a diagonal matrix, that is, if A = PDP<sup>-1</sup> for some invertible matrix P and some diagonal matrix D.
 
+#### The Diagonalization Theorem
+
+An nxn matrix A is diagonalizable if and only if a has n linearly independent eigenvectors.  In fact, A = PDP<sup>-1</sup>, D a diagonal matrix, if and only if the columns of P are n linearly independent eigenvectors of A. In this case, the diagonal entries of D are eigenvalues of A that correspond, respectively, to the eigenvectors in P.
 
 ## 5.4 - Eigenvectors and Linear Transformations
 
