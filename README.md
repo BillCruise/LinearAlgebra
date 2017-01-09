@@ -48,5 +48,15 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 8. Applications to Difference Equations
 9. Application to Markov Chains
 
+### Chapter 5: Eigenvalues and Eigenvectors
 
+### Chapter 6: Orthogonality and Least Squares
+
+### Chapter 7: Symmetric Matrices and Quadratic Forms
+
+### Chapter 8: The Geometry of Vector Spaces
+
+### Chapter 9: Optimization
+
+### Chapter 10: Finite-State Markov Chains
 
