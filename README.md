@@ -50,13 +50,56 @@ by David C. Lay, Steven R. Lay, and Judi McDonald
 
 ### Chapter 5: Eigenvalues and Eigenvectors
 
+1. Eigenvectors and Eigenvalues
+2. The Characteristic Equation
+3. Diagonalization
+4. Eigenvectors and Linear Transformations
+5. Complex Eigenvalues
+6. Discrete Dynamical Systems
+7. Applications to Differential Equations
+8. Iterative Estimates for Eigenvalues
+
 ### Chapter 6: Orthogonality and Least Squares
+
+1. Inner Product, Length, and Orthogonality
+2. Orthogonal Sets
+3. Orthogonal Projections
+4. The Gram-Schmidt Process
+5. Least-Squares Problems
+6. Applications to Linear Models
+7. Inner Product Spaces
+8. Applications of Inner Product Spaces
 
 ### Chapter 7: Symmetric Matrices and Quadratic Forms
 
+1. Diagonalization of Symmetric Matrices
+2. Quadratic Forms
+3. Constrained Optimization
+4. The Singular Value Decomposition
+5. Applications to Image Processing and Statistics
+
 ### Chapter 8: The Geometry of Vector Spaces
+
+1. Affine Combinations
+2. Affine Independence
+3. Convex Combinations
+4. Hyperplanes
+5. Polytopes
+6. Curves and Surfaces
 
 ### Chapter 9: Optimization
 
+1. Matrix Games
+2. Linear Programming - Geometric Method
+3. Linear Programming - Simplex Method
+4. Duality
+
 ### Chapter 10: Finite-State Markov Chains
+
+1. Introduction and Examples
+2. The Steady-State Vector and Google's PageRank
+3. Communication Classes
+4. Classification of States and Periodicity
+5. The Fundamental Matrix
+6. Markov Chains and Baseball Statistics
 
