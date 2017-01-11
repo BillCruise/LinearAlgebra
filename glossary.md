@@ -644,4 +644,14 @@ Let A be an nxn matrix whose distinct eigenvalues are λ<sub>1</sub>,...,λ<sub>
 
 ## 5.8 - Iterative Estimates for Eigenvalues
 
+## 6.1 - Inner Product, Length, and Orthogonality
 
+The number **u<sup>T</sup>v** is called the **inner product** of u and v, and is often written **u.v**. This inner product is also referred to as a **dot product**.
+
+The **length** (or **norm**) of a vector **v** is the nonnegative scalar ||**v**|| defined by 
+
+||**v**|| = sqrt(**v.v**) and ||**v**||<sup>2</sup> = **v.v**
+
+A vector whose length is 1 is called a **unit vector**. If we divide a nonzero vector **v** by its length we obtain a unit vector **u**. The process of creating **u** from **v** is called **normalizing** v, and u is in the same direction as v.
+
+Two vectors u and v in ℝ<sup>n</sup> are **orthogonal** to each other if u.v = 0.
