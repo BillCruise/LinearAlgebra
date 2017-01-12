@@ -655,3 +655,11 @@ The **length** (or **norm**) of a vector **v** is the nonnegative scalar ||**v**
 A vector whose length is 1 is called a **unit vector**. If we divide a nonzero vector **v** by its length we obtain a unit vector **u**. The process of creating **u** from **v** is called **normalizing** v, and u is in the same direction as v.
 
 Two vectors u and v in ℝ<sup>n</sup> are **orthogonal** to each other if u.v = 0.
+
+## 6.2 - Orthogonal Sets
+
+A set of vectors {**u**<sub>1</sub>,...**u**<sub>p</sub>} in ℝ<sup>n</sup> is said to be an **orthogonal set** if each pair of distinct vectors from the sets is orthogonal, that is if **u**<sub>i</sub>.**u**<sub>j</sub> = 0 whenever i is not equal to j.
+
+An **orthogonal basis** for a subspace W of ℝ<sup>n</sup> is a basis for W that is also an orthogonal set.
+
+
