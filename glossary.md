@@ -662,4 +662,8 @@ A set of vectors {**u**<sub>1</sub>,...**u**<sub>p</sub>} in ℝ<sup>n</sup> is 
 
 An **orthogonal basis** for a subspace W of ℝ<sup>n</sup> is a basis for W that is also an orthogonal set.
 
+## 6.4 - The Gram-Schmidt Process
 
+### The QR Factorization
+
+If A is an mxn matrix with linearly independent columns, then A can be factored as A = QR, where Q is an mxn matrix whose columns from an orthonormal basis for Col A and R is an nxn upper triangular invertible matrix with positive entries on its diagonal.
